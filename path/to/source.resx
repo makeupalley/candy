@@ -1,1 +1,2551 @@
-a
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribesource.en.resx
+0% reviewed 0% translated
+720 strings / 7361 words
+Edit source strings
+Feb 4th 2021, 09:36
+ute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WeThinkYouWrote" xml:space="preserve">
+    <value>We think you wrote:</value>
+  </data>
+  <data name="YouEntered" xml:space="preserve">
+    <value>This deals with {0}.</value>
+  </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="AlternateForm" xml:space="preserve">
+    <value>Alternative approach</value>
+  </data>
+  <data name="Steps" xml:space="preserve">
+    <value>Steps</value>
+  </data>
+  <data name="WhyNeed" xml:space="preserve">
+    <value>Why I need this</value>
+  </data>
+  <data name="TermsAndTopics" xml:space="preserve">
+    <value>Terms and topics</value>
+  </data>
+  <data name="RelatedLinks" xml:space="preserve">
+    <value>Related links</value>
+  </data>
+  <data name="FinalResult" xml:space="preserve">
+    <value>Final Result</value>
+  </data>
+  <data name="ResultValue" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="SeeSteps" xml:space="preserve">
+    <value>See steps</value>
+  </data>
+  <data name="ShareTheResult" xml:space="preserve">
+    <value>Share The Result</value>
+  </data>
+  <data name="VideoSolution" xml:space="preserve">
+    <value>Video Solution</value>
+  </data>
+  <data name="StepByStepSolution" xml:space="preserve">
+    <value>Step-by-step solution</value>
+  </data>
+  <data name="LatestSolved" xml:space="preserve">
+    <value>Latest Solved</value>
+  </data>
+  <data name="LatestRelatedDrillsSolved" xml:space="preserve">
+    <value>Latest Related Drills Solved</value>
+  </data>
+  <data name="TigerAlgebraTitle" xml:space="preserve">
+    <value>Tiger Algebra - A Free, Online Algebra Solver and Calculator</value>
+  </data>
+  <data name="TigerAlgebraSolver" xml:space="preserve">
+    <value>Tiger Algebra Solver</value>
+  </data>
+  <data name="AlgebraCalculator" xml:space="preserve">
+    <value>Tiger Algebra Calculator</value>
+  </data>
+  <data name="EnterAnEquation" xml:space="preserve">
+    <value>Enter an equation or problem</value>
+  </data>
+  <data name="WhyLearnThisLabel" xml:space="preserve">
+    <value>Why learn this</value>
+  </data>
+  <data name="WhyNeedHeadline" xml:space="preserve">
+    <value>Why should I know this?</value>
+  </data>
+  <data name="Solve" xml:space="preserve">
+    <value>Solve</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="CameraInputError" xml:space="preserve">
+    <value>Camera input is not recognized!</value>
+  </data>
+  <data name="JoinCommunityHeadline" xml:space="preserve">
+    <value>Join a community with 26,970,008 solved equations</value>
+  </data>
+  <data name="JoinBenefit1" xml:space="preserve">
+    <value>Live Help</value>
+  </data>
+  <data name="JoinBenefit2" xml:space="preserve">
+    <value>Earn rewards and prizes</value>
+  </data>
+  <data name="JoinBenefit3" xml:space="preserve">
+    <value>Customize everything</value>
+  </data>
+  <data name="SignInWithGoogle" xml:space="preserve">
+    <value>Sign in with Google</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>Create Account</value>
+  </data>
+  <data name="EnterAProblem" xml:space="preserve">
+    <value>Enter a problem or formula</value>
+  </data>
+  <data name="LoadingHandWriting" xml:space="preserve">
+    <value>Loading Hand writing screen...</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Select Language</value>
+  </data>
+  <data name="SelectInputMode" xml:space="preserve">
+    <value>Select Input</value>
+  </data>
+  <data name="CalculatorInputMode" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="KeyboardInputMode" xml:space="preserve">
+    <value>Keyboard</value>
+  </data>
+  <data name="ContinueInputMode" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="GoBackInputMode" xml:space="preserve">
+    <value>Go Back</value>
+  </data>
+  <data name="WarningInputMode" xml:space="preserve">
+    <value>This action will erase your current inputs. Are you sure you want to continue?</value>
+  </data>
+  <data name="SelectedLanguage" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="EmailAdress" xml:space="preserve">
+    <value>Email Adress</value>
+  </data>
+  <data name="VideoExplanation" xml:space="preserve">
+    <value>Video explanation</value>
+  </data>
+  <data name="WasHelpful" xml:space="preserve">
+    <value>Was this explanation helpful?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="HelpMe" xml:space="preserve">
+    <value>Help Me</value>
+  </data>
+  <data name="HintStatic" xml:space="preserve">
+    <value>Hint:</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+  <data name="TermsOfService" xml:space="preserve">
+    <value>Terms of service</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="BackToTop" xml:space="preserve">
+    <value>Back to top</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Copyright Ⓒ</value>
+  </data>
+  <data name="LeaveUsAFeedback" xml:space="preserve">
+    <value>Leave us a feedback</value>
+  </data>
+  <data name="LeaveUsAFeedbackMessage" xml:space="preserve">
+    <value>Want the Tiger to become better at solving your math problems? Leave us your feedback on how we can improve!</value>
+  </data>
+  <data name="LeaveUsYourFeedback" xml:space="preserve">
+    <value>Leave us your feedback</value>
+  </data>
+  <data name="YourEmailAddress" xml:space="preserve">
+    <value>Your Email address (optional)</value>
+  </data>
+  <data name="FeedbackSent" xml:space="preserve">
+    <value>Feedback Sent</value>
+  </data>
+  <data name="ScanFormula" xml:space="preserve">
+    <value>Scan Formula</value>
+  </data>
+  <data name="CameraImageArea" xml:space="preserve">
+    <value>Fit the image in the area below</value>
+  </data>
+  <data name="FallbackMessage" xml:space="preserve">
+    <value>Please connect to the Internet to use Tiger Algebra</value>
+  </data>
+  <data name="FallbackGoTo" xml:space="preserve">
+    <value>Try again.</value>
+  </data>
+  <data name="ResultsFound" xml:space="preserve">
+    <value>{0} solution(s) found</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesFinalResultSpokenDescription" xml:space="preserve">
+    <value>The final result is {SolutionFinalResult}</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesFinalResultSpokenDescriptionAtEnding" xml:space="preserve">
+    <value>And so the final result is {SolutionFinalResult}</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesSolverSpokenDescriptionIntro" xml:space="preserve">
+    <value>You asked Tiger to calculate</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesSolverSpokenDescription" xml:space="preserve">
+    <value>This deals with absolute values</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesStep1Hint" xml:space="preserve">
+    <value>Simplify each expression within the absolute value according to the order of operations.</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesStep1Spoken" xml:space="preserve">
+    <value>To find the value, we start by simplifying the terms inside the absolute values</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesStep1Text" xml:space="preserve">
+    <value>Simplify the expression inside the absolute value bars</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesStep2Spoken" xml:space="preserve">
+    <value>We continue, by taking the absolute value of the results</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesStep2Text" xml:space="preserve">
+    <value>Take the absolute value of the resulting number</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesStep3Spoken" xml:space="preserve">
+    <value>Finally, we simplify the resultant expression by combing the terms based on the order of precedence.</value>
+  </data>
+  <data name="BasicOperationsInAbsoluteValueExpressionsWithoutVariablesStep3Text" xml:space="preserve">
+    <value>Simplify the numeric expression</value>
+  </data>
+  <data name="HowToSolve" xml:space="preserve">
+    <value>Let’s solve it step by step.</value>
+  </data>
+  <data name="culture_de" xml:space="preserve">
+    <value>German | Deutsch</value>
+  </data>
+  <data name="culture_en" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="culture_es" xml:space="preserve">
+    <value>Spanish | Español</value>
+  </data>
+  <data name="culture_vi" xml:space="preserve">
+    <value>Vietnamese | Tiếng Việt</value>
+  </data>
+  <data name="culture_ru" xml:space="preserve">
+    <value>Russian | Русский</value>
+  </data>
+  <data name="culture_ja" xml:space="preserve">
+    <value>Japanes | 日本語</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>Tiger found no solution.</value>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="ArithmeticMean" xml:space="preserve">
+    <value>Arithmetic mean (Simple Average)</value>
+  </data>
+  <data name="Median" xml:space="preserve">
+    <value>Median</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="Domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="ListIsFunction" xml:space="preserve">
+    <value>Function: The list of ordered pairs is a function</value>
+  </data>
+  <data name="ListIsNotFunction" xml:space="preserve">
+      <value>Function: The list of ordered pairs is not a function</value>
+  </data>
+  <data name="Variance" xml:space="preserve">
+    <value>Variance</value>
+  </data>
+  <data name="StandardDeviation" xml:space="preserve">
+    <value>Standard Deviation</value>
+  </data>
+  <data name="MetaDescriptionSolution" xml:space="preserve">
+    <value>Equations : Tiger Algebra gives you not only the answers, but also the complete step by step method for solving your equations {0} so that you understand better</value>
+  </data>
+  <data name="MetaDescriptionDefault" xml:space="preserve">
+    <value>Free Algebra Solver and Algebra Calculator showing step by step solutions. No Download or Signup. Available as a mobile and desktop website as well as native iOS and Android apps.</value>
+  </data>
+  <data name="MetaDescriptionSimplify" xml:space="preserve">
+    <value>Learn with Tiger how to do {0} fractions in a clear and easy way : Equivalent Fractions,Least Common Denominator, Reducing (Simplifying) Fractions</value>
+  </data>
+  <data name="MetaDescriptionApproximation" xml:space="preserve">
+    <value>Algebra {0} Solver Shows Steps Quadratic Equations, Exponents, Polynomials ...</value>
+  </data>
+  <data name="MetaDescriptionCircle" xml:space="preserve">
+    <value>Equation, graph and more information about a circle centered at {0}</value>
+  </data>
+  <data name="MetaTitleCircle" xml:space="preserve">
+    <value>Find the equation of a circle using its center and radius (or diameter) {0}</value>
+  </data>
+  <data name="MetaTitleCombinations" xml:space="preserve">
+    <value>Find the number of combinations {0} items can be selected from a set of {1} {2}</value>
+  </data>
+  <data name="MetaDescriptionHomework" xml:space="preserve">
+    <value>{0} Free Solver Simplifier that shows steps. Helps you solve your homework assignments"</value>
+  </data>
+  <data name="MetaTitleDistance" xml:space="preserve">
+    <value>Find the distance between two points and their midpoint {0}</value>
+  </data>
+  <data name="MetaDescriptionDistance" xml:space="preserve">
+    <value>Find the distance between two points p1 {0} and p2 {1}</value>
+  </data>
+  <data name="MetaDescriptionDistanceBetweenTwoPoints" xml:space="preserve">
+    <value>Find the distance between two points p1 {0} and p2 {1}</value>
+  </data>>
+  <data name="MetaTitleDistanceBetweenTwoPoints" xml:space="preserve">
+    <value>Find the distance between two points p1 {0} and p2 {1}</value>
+  </data>
+  <data name="MetaTitleMidpointCalculator" xml:space="preserve">
+    <value>Find the midpoint two points p1 {0} and p2 {1}</value>
+  </data>>
+  <data name="MetaDescriptionMidpointCalculator" xml:space="preserve">
+    <value>Find the midpoint between two points p1 {0} and p2 {1}</value>
+  </data>
+  <data name="MetaTitleTriangle" xml:space="preserve">
+    <value>Find area of triangle knowing three sides {0}</value>
+  </data>
+  <data name="MetaDescriptionTriangle" xml:space="preserve">
+    <value>Tiger shows two methods to find area of a triangle given its 3 sides {0}</value>
+  </data>
+  <data name="MetaTitleGeometricSeries" xml:space="preserve">
+    <value>Find the Sum, Average and Median and Range {0}</value>
+  </data>
+  <data name="MetaTitleGCF" xml:space="preserve">
+    <value>Calculate the GCF (greatest common factor) of {0}</value>
+  </data>
+  <data name="MetaDescriptionGCF" xml:space="preserve">
+    <value>Tiger calculates GCF (greatest common factor) {0} showing steps </value>
+  </data>
+  <data name="MetaTitleLCM" xml:space="preserve">
+    <value>Calculate the LCM (least common multiple) of {0}</value>
+  </data>
+  <data name="MetaDescriptionLCM" xml:space="preserve">
+    <value>Tiger calculates LCM (least common multiple) {0} showing steps </value>
+  </data>
+  <data name="MetaTitleQEVFS" xml:space="preserve">
+    <value>Solve the quadratic equation {0} using the Quadratic Formula</value>
+  </data>
+  <data name="MetaDescriptionQEVFS" xml:space="preserve">
+    <value>Solve the quadratic equation {0} using the Quadratic Formula: Tiger Algebra not only solves the quadratic equation {0} using the quadratic formula, but its clear, step-by-step explanation of the solution helps to better understand and remember the method.</value>
+  </data>
+  <data name="MetaTitleOOO" xml:space="preserve">
+    <value>Solving Order of Operations {0}</value>
+  </data>
+  <data name="MetaDescriptionOOO" xml:space="preserve">
+    <value>Order of Operations with Tiger Algebra {0}</value>
+  </data>
+  <data name="MetaDescriptionLinearEquations" xml:space="preserve">
+    <value>Step by step solution of a set of 2, 3 or 4 Linear Equations using the Substitution Method {0}</value>
+  </data>
+  <data name="MetaDescriptionLinearEquationOneUknown" xml:space="preserve">
+    <value>Equations : Tiger shows you, step by step, how to Isolate x (Or y or z) in a formula {0} and Solve Your Equation</value>
+  </data>
+  <data name="MetaDescriptionPerfectCubes" xml:space="preserve">
+    <value>Tiger Powers {0} indicate repeated multiplication of the same factor. The base (bottom number) of a power indictates the factor being multiplied and the exponent</value>
+  </data>
+  <data name="MetaDescriptionNonLinear" xml:space="preserve">
+    <value>Tiger Algebra gives you not only the answers, but also the complete step by step solution for your Quadratic Equations {0} so that you can understand better</value>
+  </data>
+  <data name="MetaTitlePercentage" xml:space="preserve">
+    <value>Percentage - What is {0} percent of {1}</value>
+  </data>
+  <data name="MetaDescriptionPolynomialLongDivision" xml:space="preserve">
+    <value>Exponent, a small number {0} written above and to the right of the base number, tells how many times the base number is being multiplied</value>
+  </data>
+  <data name="MetaDescriptionPower" xml:space="preserve">
+    <value>A Power consists of two parts, {0} Exponent and Base, We are going to learn to identify components of a Power and to evaluate it </value>
+  </data>
+  <data name="MetaDescriptionQuadraticEquations" xml:space="preserve">
+    <value>Tiger shows you, step by step, how to solve YOUR Quadratic Equations {0} by Completing the Square, Quadratic formula or, whenever possible, by Factoring</value>
+  </data>
+  <data name="MetaDescriptionRadicalEquations" xml:space="preserve">
+    <value>Tiger solves Your Radical Equations, shows complete work {0} so that you understand better</value>
+  </data>
+  <data name="MetaDescriptionSimplifyingRadicals" xml:space="preserve">
+    <value>Tiger Algebra gives you the complete step by step, 3 different methods for solving Quadratic Equations {0} Completing the Square, Quadratic formula, Factoring</value>
+  </data>
+  <data name="MetaDescriptionSimplifyingRadicalsSqrt" xml:space="preserve">
+    <value>Tiger Simplifies Radicals {0} showing steps </value>
+  </data>
+  <data name="MetaDescriptionStatisticalMeasures" xml:space="preserve">
+    <value>Learn how to find the Sum, Mean, Average, Range, Median and Variance for a data set of numbers</value>
+  </data>
+  <data name="MetaKeywordsDefault" xml:space="preserve">
+    <value>tiger, algebra, Algebra Solver, Algebra Calculator</value>
+  </data>
+  <data name="MetaTitleLeastCommonMultiple" xml:space="preserve">
+    <value>What’s the least common multiple {0}</value>
+  </data>
+  <data name="MetaDescriptionLeastCommonMultiple" xml:space="preserve">
+    <value>Lowest common multiple (LCM): Tiger Algebra not only finds the {0}, but its clear, step-by-step explanation of the solution helps to better understand and remember the method.</value>
+  </data>
+  <data name="MetaWhyLearnThisCommonMultiple" xml:space="preserve">
+    <value>The least common multiple (LCM) can be used to add or subtract unlike fractions, or fractions with different denominators, by helping to find the lowest common denominator. LCM is also a tool for solving word problems in which the lowest common number or amount must be found among different quantities of things.</value>
+  </data>
+  <data name="MetaWhyLearnThisABS" xml:space="preserve">
+    <value>Absolute value can be used to measure the difference from one point to another, regardless of the direction of movement. This is because distance is not represented in negative numbers but rather by direction, such as forward/backward, east/west, above/below (e.g., 40 meters below sea level). It can also help solve problems that require positive numbers or involve inequalities. Absolute value can be used to convey a change in quantity that cannot be negative. This is especially applicable in everyday situations, in which we seldom use the word "negative" to refer to amount, opting instead to describe the movement’s direction.</value>
+  </data>
+  <data name="MetaWhyLearnThisQEVFS" xml:space="preserve">
+    <value>In their most basic function, quadratic equations define shapes like circles, ellipses and parabolas. These shapes can in turn be used to predict the curve of an object in motion, such as a ball kicked by football player or shot out of a cannon. When it comes to an object’s movement through space, what better place to start than space itself—with the revolution of planets around the sun in our solar system. The Quadratic Formula was used to establish that planets’ orbits are elliptical, not circular. Determining the path and speed an object travels through space is possible even after it has come to a stop: the quadratic equation can calculate how fast a vehicle was moving when it crashed. With information like this, the automotive industry can design brakes to prevent collisions in the future. Many industries use the Quadratic Formula to predict and thus improve their products’ lifespan and safety.</value>
+  </data> 
+   <data name="MetaWhyLearnThisOOO" xml:space="preserve">
+    <value>Order of operations is a basic rule of algebra. It tells us what to what to solve first when we have an equation with multiple functions, which is something that you will likely encounter throughout your maths studies. The order is: Parentheses, Exponents, Multiplication and Division, then finally Addition and Subtraction. Remember that when you're solving within the parentheses, the Order of Operations applies!</value>
+  </data>
+  <data name="MetaWhyLearnThisDistanceBetweenTwoPoints" xml:space="preserve">
+    <value>
+      Learn how to find the distance between two points by using the distance formula, which is an application of the Pythagorean theorem. We can rewrite the Pythagorean theorem as <![CDATA[<math>d=sqrt((x_2-x_1)^2+(y_2-y_1)^2)</math>]]> to find the distance between any two points.
+    </value>
+  </data>
+  <data name="MetaWhyLearnThisMidpointCalculator" xml:space="preserve">
+    <value>
+      The distance between two points is the length of the line segment connecting them. Note that the distance between two points is always positive. Segments that have equal length are called congruent segments.
+    </value>
+  </data>
+  <data name="MetaTitleABS" xml:space="preserve">
+    <value>Simplify absolute value expression {0}</value>
+  </data>
+  <data name="MetaDescriptionABS" xml:space="preserve">
+    <value>Simplify absolute value expression: Tiger Algebra not only simplifies the absolute value expression {0}, but its clear, step-by-step explanation of the solution helps to better understand and remember the method.</value>
+  </data>
+  <data name="MetaWhyLearnThisScientificNotation" xml:space="preserve">
+    <value>Scientific notation, or standard form, makes things easier when working with very small or very big numbers, both of which come up frequently in the fields of science and engineering. It is used in science, for example, to convey the mass of the heavenly bodies: Jupiter’s mass is 1.898 x 10^27 kg, which is easier to comprehend than writing the number 1,898 followed by 24 zeroes. Scientific notation also makes solving problems that use such high or low numbers more straightforward.</value>
+  </data>
+  <data name="MetaTitleScientificNotation" xml:space="preserve">
+    <value>Scientific notation calculator {0}</value>
+  </data>
+  <data name="MetaDescriptionScientificNotation" xml:space="preserve">
+    <value>Scientific Notation: Tiger Algebra not only writes the number {0} in scientific notation, but its clear, step-by-step explanation of the solution helps to better understand and remember the method.</value>
+  </data>
+  <data name="CircleCenter" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="CircleRadius" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="CircleDiameter" xml:space="preserve">
+    <value>Diameter</value>
+  </data>
+  <data name="CircleCircumference" xml:space="preserve">
+    <value>Circumference or (or Permieter)</value>
+  </data>
+  <data name="CircleArea" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="EmptyEquationErrorDescription" xml:space="preserve">
+    <value>Please enter a math problem into the input box above.</value>
+  </data>
+  <data name="EmptyEquationErrorHeader" xml:space="preserve">
+    <value>No equation entered.</value>
+  </data>
+  <data name="EmptyEquationErrorPageTitle" xml:space="preserve">
+    <value>No equation entered</value>
+  </data>
+  <data name="ErrorDescription" xml:space="preserve">
+    <value>An error occurred while processing your request.</value>
+  </data>
+  <data name="ErrorHeader" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="ErrorPageTitle" xml:space="preserve">
+    <value>Unexpected error</value>
+  </data>
+  <data name="ExceptionMessage" xml:space="preserve">
+    <value>Error occured and your request could not be processed. If it happens again do hesitate to contact our support!</value>
+  </data>
+  <data name="NoSolutionsFound" xml:space="preserve">
+    <value>No solutions found</value>
+  </data>
+  <data name="Method" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="AbsoluteValueProblem" xml:space="preserve">
+    <value>Absolute value expressions</value>
+  </data>
+  <data name="AbsoluteValueProblem.plugin" xml:space="preserve">
+    <value>simplifying absolute value expressions</value>
+  </data>
+  <data name="LeastCommonMultipleSolver" xml:space="preserve">
+    <value>Least common multiple (LCM)</value>
+  </data>
+  <data name="LeastCommonMultipleSolver.plugin" xml:space="preserve">
+    <value>the least common multiple (LCM)</value>
+  </data>
+  <data name="QuadraticEquationsViaFormulaSolver" xml:space="preserve">
+    <value>Solving quadratic equations using the formula</value>
+  </data>
+  <data name="QuadraticEquationsViaFormulaSolver.plugin" xml:space="preserve">
+    <value>solving quadratic equations using the formula</value>
+  </data>
+  <data name="ScientificNotationSolver" xml:space="preserve">
+    <value>Scientific Notation</value>
+  </data>
+  <data name="ScientificNotationSolver.plugin" xml:space="preserve">
+    <value>scientific notation</value>
+  </data>
+  <data name="OrderOfOperationsNumericCalculator" xml:space="preserve">
+    <value>Order of operations</value>
+  </data>
+  <data name="OrderOfOperationsNumericCalculator.plugin" xml:space="preserve">
+    <value>the order of operations</value>
+  </data>
+  <data name="Legacy.AbsoluteValueEquations" xml:space="preserve">
+    <value>Absolute value equations</value>
+  </data>
+  <data name="Legacy.AbsoluteValueEquations.plugin" xml:space="preserve">
+    <value>absolute value equations</value>
+  </data>
+  <data name="Legacy.AbsoluteValueInequalities" xml:space="preserve">
+    <value>Absolute value inequalities</value>
+  </data>
+  <data name="Legacy.AbsoluteValueInequalities.plugin" xml:space="preserve">
+    <value>absolute value inequalities</value>
+  </data>
+  <data name="Legacy.AddingSubtractingFindingLeastCommonMultiple" xml:space="preserve">
+    <value>Adding, subtracting and finding the least common multiple</value>
+  </data>
+  <data name="Legacy.AddingSubtractingFindingLeastCommonMultiple.plugin" xml:space="preserve">
+    <value>adding, subtracting and finding the least common multiple</value>
+  </data>
+  <data name="Legacy.Approximation" xml:space="preserve">
+    <value>Approximation</value>
+  </data>
+  <data name="Legacy.Approximation.plugin" xml:space="preserve">
+    <value>approximation</value>
+  </data>
+  <data name="Legacy.ArithmeticSequence" xml:space="preserve">
+    <value>Arithmetic sequences</value>
+  </data>
+  <data name="Legacy.ArithmeticSequence.plugin" xml:space="preserve">
+    <value>arithmetic sequences</value>
+  </data>
+  <data name="Legacy.BasicComplexOperations" xml:space="preserve">
+    <value>Basic complex operations</value>
+  </data>
+  <data name="Legacy.BasicComplexOperations.plugin" xml:space="preserve">
+    <value>basic complex operations</value>
+  </data>
+  <data name="Circle" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="Legacy.CircleContent" xml:space="preserve">
+    <value>Circles</value>
+  </data>
+  <data name="Legacy.CircleContent.plugin" xml:space="preserve">
+    <value>circles</value>
+  </data>
+  <data name="Legacy.Combinations" xml:space="preserve">
+    <value>Combinations</value>
+  </data>
+  <data name="Legacy.Combinations.plugin" xml:space="preserve">
+    <value>combinations</value>
+  </data>
+  <data name="Legacy.deMoivreFormulaEquations" xml:space="preserve">
+    <value>De Moivre’s formula</value>
+  </data>
+  <data name="Legacy.deMoivreFormulaEquations.plugin" xml:space="preserve">
+    <value>de Moivre’s formula</value>
+  </data>
+  <data name="Legacy.DistanceBetweenTwoPointsAndTheirMidpoint" xml:space="preserve">
+    <value>Distance and midpoint formulas</value>
+  </data>
+  <data name="Legacy.DistanceBetweenTwoPointsAndTheirMidpoint.plugin" xml:space="preserve">
+    <value>the distance between two points and their midpoint</value>
+  </data>
+  <data name="Legacy.EquationsWhichAreReducibleToQuadratic" xml:space="preserve">
+    <value>Equations reducible to quadratic form</value>
+  </data>
+  <data name="Legacy.EquationsWhichAreReducibleToQuadratic.plugin" xml:space="preserve">
+    <value>Equations reducible to quadratic form</value>
+  </data>
+  <data name="Legacy.Factorial" xml:space="preserve">
+    <value>Factorial</value>
+  </data>
+  <data name="Legacy.Factorial.plugin" xml:space="preserve">
+    <value>Factorial</value>
+  </data>
+  <data name="Legacy.FactoringBinomialsasDifferenceofSquares" xml:space="preserve">
+    <value>Factoring binomials using the difference of squares</value>
+  </data>
+  <data name="Legacy.FactoringBinomialsasDifferenceofSquares.plugin" xml:space="preserve">
+    <value>factoring binomials using the difference of squares</value>
+  </data>
+  <data name="Legacy.FactoringBinomialsasSumorDifferenceofCubes" xml:space="preserve">
+    <value>Factoring binomials using the difference of squares</value>
+  </data>
+  <data name="Legacy.FactoringBinomialsasSumorDifferenceofCubes.plugin" xml:space="preserve">
+    <value>factoring binomials as the sum or difference of cubes</value>
+  </data>
+  <data name="Legacy.FactoringMultiVariablePolynomials" xml:space="preserve">
+    <value>Factoring multivariable polynomials</value>
+  </data>
+  <data name="Legacy.FactoringMultiVariablePolynomials.plugin" xml:space="preserve">
+    <value>factoring multivariable polynomials</value>
+  </data>
+  <data name="Legacy.FindAreaOfTriangleGivenByIts3Sides" xml:space="preserve">
+    <value>Finding an area of a triangle given three sides</value>
+  </data>
+  <data name="Legacy.FindAreaOfTriangleGivenByIts3Sides.plugin" xml:space="preserve">
+    <value>finding an area of a triangle given three sides</value>
+  </data>
+  <data name="Legacy.FindPrimeFactors" xml:space="preserve">
+    <value>Prime factors</value>
+  </data>
+  <data name="Legacy.FindPrimeFactors.plugin" xml:space="preserve">
+    <value>finding prime factors</value>
+  </data>
+  <data name="Legacy.GeometricSeries" xml:space="preserve">
+    <value>Geometric series</value>
+  </data>
+  <data name="Legacy.GeometricSeries.plugin" xml:space="preserve">
+    <value>geometric series</value>
+  </data>
+  <data name="Legacy.GreatestCommonFactor" xml:space="preserve">
+    <value>Greatest common factor (GCF)</value>
+  </data>
+  <data name="Legacy.GreatestCommonFactor.plugin" xml:space="preserve">
+    <value>the greatest common factor</value>
+  </data>
+  <data name="Legacy.IdentifyingPerfectCubes" xml:space="preserve">
+    <value>Identifying perfect cubes</value>
+  </data>
+  <data name="Legacy.IdentifyingPerfectCubes.plugin" xml:space="preserve">
+    <value>identifying perfect cubes</value>
+  </data>
+  <data name="Legacy.LCMCalculator" xml:space="preserve">
+    <value>Least common multiple (LCM)</value>
+  </data>
+  <data name="Legacy.LCMCalculator.plugin" xml:space="preserve">
+    <value>the least common multiple (LCM)</value>
+  </data>
+  <data name="Legacy.LinearEquations" xml:space="preserve">
+    <value>Linear equations</value>
+  </data>
+  <data name="Legacy.LinearEquations.plugin" xml:space="preserve">
+    <value>linear equations</value>
+  </data>
+  <data name="Legacy.LinearEquationsWithOneUnknown" xml:space="preserve">
+    <value>Linear equations with one unknown</value>
+  </data>
+  <data name="Legacy.LinearEquationsWithOneUnknown.plugin" xml:space="preserve">
+    <value>linear equations with one unknown</value>
+  </data>
+  <data name="Legacy.LinearEquationsWithTwoUnknowns" xml:space="preserve">
+    <value>Linear equations with two unknowns</value>
+  </data>
+  <data name="Legacy.LinearEquationsWithTwoUnknowns.plugin" xml:space="preserve">
+    <value>linear equations with two unknowns</value>
+  </data>
+  <data name="Legacy.LinearEquationsWithThreeUnknowns" xml:space="preserve">
+    <value>Linear equations with three unknowns</value>
+  </data>
+  <data name="Legacy.LinearEquationsWithThreeUnknowns.plugin" xml:space="preserve">
+    <value>linear equations with three unknowns</value>
+  </data>
+  <data name="Legacy.LinearEquationsWithFourUnknowns" xml:space="preserve">
+    <value>Linear equations with four unknowns</value>
+  </data>
+  <data name="Legacy.LinearEquationsWithFourUnknowns.plugin" xml:space="preserve">
+    <value>Linear equations with four unknowns</value>
+  </data>
+  <data name="Legacy.LinearInequalities" xml:space="preserve">
+    <value>Linear inequalities</value>
+  </data>
+  <data name="Legacy.LinearInequalities.plugin" xml:space="preserve">
+    <value>linear inequalities</value>
+  </data>
+  <data name="Legacy.NonLinearEquations" xml:space="preserve">
+    <value>Nonlinear equations</value>
+  </data>
+  <data name="Legacy.NonLinearEquations.plugin" xml:space="preserve">
+    <value>nonlinear equations</value>
+  </data>
+  <data name="Legacy.OtherFactorizations" xml:space="preserve">
+    <value>Other Factorizations</value>
+  </data>
+  <data name="Legacy.OtherFactorizations.plugin" xml:space="preserve">
+    <value>other factorizations</value>
+  </data>
+  <data name="Legacy.Percentage" xml:space="preserve">
+    <value>Percentages</value>
+  </data>
+  <data name="Legacy.Percentage.plugin" xml:space="preserve">
+    <value>percentages</value>
+  </data>
+  <data name="Legacy.PolynomialLongDivision" xml:space="preserve">
+    <value>Polynomial long division</value>
+  </data>
+  <data name="Legacy.PolynomialLongDivision.plugin" xml:space="preserve">
+    <value>polynomial long division</value>
+  </data>
+  <data name="Legacy.PolynomialRootCalculator" xml:space="preserve">
+    <value>Finding the roots of polynomials</value>
+  </data>
+  <data name="Legacy.PolynomialRootCalculator.plugin" xml:space="preserve">
+    <value>finding the roots (zeroes) of polynomials</value>
+  </data>
+  <data name="Legacy.PowerEquation" xml:space="preserve">
+    <value>Power equations</value>
+  </data>
+  <data name="Legacy.PowerEquation.plugin" xml:space="preserve">
+    <value>power equations</value>
+  </data>
+  <data name="Legacy.PowerOfi" xml:space="preserve">
+    <value>The power of i</value>
+  </data>
+  <data name="Legacy.PowerOfi.plugin" xml:space="preserve">
+    <value>the power of i</value>
+  </data>
+  <data name="Legacy.PropertiesStraightLine" xml:space="preserve">
+    <value>Properties of a straight line</value>
+  </data>
+  <data name="Legacy.PropertiesStraightLine.plugin" xml:space="preserve">
+    <value>the properties of a straight line</value>
+  </data>
+  <data name="Legacy.QuadraticEquations" xml:space="preserve">
+    <value>Quadratic equations</value>
+  </data>
+  <data name="Legacy.QuadraticEquations.plugin" xml:space="preserve">
+    <value>quadratic equations</value>
+  </data>
+  <data name="Legacy.SolvingQuadraticEquations" xml:space="preserve">
+    <value>Quadratic equations</value>
+  </data>
+  <data name="Legacy.SolvingQuadraticEquations.plugin" xml:space="preserve">
+    <value>quadratic equations</value>
+  </data>
+  <data name="Legacy.RadicalEquations" xml:space="preserve">
+    <value>Radical equations</value>
+  </data>
+  <data name="Legacy.RadicalEquations.plugin" xml:space="preserve">
+    <value>radical equations</value>
+  </data>
+  <data name="Legacy.RaisingToAPower" xml:space="preserve">
+    <value>Raising to a power</value>
+  </data>
+  <data name="Legacy.RaisingToAPower.plugin" xml:space="preserve">
+    <value>raising to a power</value>
+  </data>
+  <data name="Legacy.ReducingFractionsToLowestTerms" xml:space="preserve">
+    <value>Reducing fractions to their lowest terms</value>
+  </data>
+  <data name="Legacy.ReducingFractionsToLowestTerms.plugin" xml:space="preserve">
+    <value>reducing fractions to their lowest terms</value>
+  </data>
+  <data name="Legacy.SimplifyingRadicals" xml:space="preserve">
+    <value>Simplifying radicals</value>
+  </data>
+  <data name="Legacy.SimplifyingRadicals.plugin" xml:space="preserve">
+    <value>simplifying radicals</value>
+  </data>
+  <data name="Legacy.SolvingQuadraticEquationsUsingTheFormula" xml:space="preserve">
+    <value>Solving quadratic equations with the quadratic formula</value>
+  </data>
+  <data name="Legacy.SolvingQuadraticEquationsUsingTheFormula.plugin" xml:space="preserve">
+    <value>solving quadratic equations with the quadratic formula</value>
+  </data>
+  <data name="Legacy.SquareRootSimplifier" xml:space="preserve">
+    <value>Simplifying square roots</value>
+  </data>
+  <data name="Legacy.SquareRootSimplifier.plugin" xml:space="preserve">
+    <value>simplifying square roots</value>
+  </data>
+  <data name="Legacy.StatisticalMeasures" xml:space="preserve">
+    <value>Statistical measures</value>
+  </data>
+  <data name="Legacy.StatisticalMeasures.plugin" xml:space="preserve">
+    <value>statistical measures</value>
+  </data>
+  <data name="Legacy.SimplificationOrOtherSimpleResults" xml:space="preserve">
+    <value>Simplification or other simple results</value>
+  </data>
+  <data name="Legacy.SimplificationOrOtherSimpleResults.plugin" xml:space="preserve">
+    <value>simplification or other simple results</value>
+  </data>
+  <data name="Legacy.vb.AddingAndSubtractingLogs" xml:space="preserve">
+    <value>Adding and subtracting logs</value>
+  </data>
+  <data name="Legacy.vb.AddingAndSubtractingLogs.plugin" xml:space="preserve">
+    <value>adding and subtracting logs</value>
+  </data>
+  <data name="Legacy.vb.DomainRangeAndFunctionFromOrderedPair" xml:space="preserve">
+    <value>Finding the domain and range of a relation from ordered pairs</value>
+  </data>
+  <data name="Legacy.vb.DomainRangeAndFunctionFromOrderedPair.plugin" xml:space="preserve">
+    <value>finding the domain and range of a relation from ordered pairs</value>
+  </data>
+  <data name="Legacy.vb.IntegerToPowerVariableEqualsNumber" xml:space="preserve">
+    <value>Solving exponential equations with logarithms</value>
+  </data>
+  <data name="Legacy.vb.IntegerToPowerVariableEqualsNumber.plugin" xml:space="preserve">
+    <value>solving exponential equations with logarithms</value>
+  </data>
+  <data name="Legacy.vb.LogarithmicFormToExponentialForm" xml:space="preserve">
+    <value>Logarithmic form to exponential form</value>
+  </data>
+  <data name="Legacy.vb.LogarithmicFormToExponentialForm.plugin" xml:space="preserve">
+    <value>logarithmic form to exponential form</value>
+  </data>
+  <data name="AltBackIcon" xml:space="preserve">
+    <value>Back Icon</value>
+  </data>
+  <data name="AltSentFeedbackIcon" xml:space="preserve">
+    <value>Sent Feedback Icon</value>
+  </data>
+  <data name="AltDisclosureIcon" xml:space="preserve">
+    <value>Disclosure Icon</value>
+  </data>
+  <data name="AltMoreIcon" xml:space="preserve">
+    <value>More Icon</value>
+  </data>
+  <data name="AltCloseIcon" xml:space="preserve">
+    <value>Close Icon</value>
+  </data>
+  <data name="AltKeyboardIcon" xml:space="preserve">
+    <value>Keyboard Icon</value>
+  </data>
+  <data name="AltCalculatorIcon" xml:space="preserve">
+    <value>Calculator Icon</value>
+  </data>
+  <data name="AltCameraIcon" xml:space="preserve">
+    <value>Camera Icon</value>
+  </data>
+  <data name="AltHandwritingIcon" xml:space="preserve">
+    <value>Handwritting Icon</value>
+  </data>
+  <data name="AltLogoIcon" xml:space="preserve">
+    <value>Logo Icon</value>
+  </data>
+  <data name="AltCancelIcon" xml:space="preserve">
+    <value>Cancel Icon</value>
+  </data>
+  <data name="AltShareIcon" xml:space="preserve">
+    <value>Share Icon</value>
+  </data>
+  <data name="AltPlayIcon" xml:space="preserve">
+    <value>Play Icon</value>
+  </data>
+  <data name="AltCheckmarkIcon" xml:space="preserve">
+    <value>Checkmark Icon</value>
+  </data>
+  <data name="LegalHeaderTitle" xml:space="preserve">
+    <value>Terms and Conditions and Privacy Policy</value>
+  </data>
+  <data name="SolveTabTopics" xml:space="preserve">
+    <value>Topics</value>
+  </data>
+  <data name="SolveTabTopicsLg" xml:space="preserve">
+    <value>Terms and topics</value>
+  </data>
+  <data name="SolveTabLinks" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="SolveTabLinksLg" xml:space="preserve">
+    <value>Related links</value>
+  </data>
+  <data name="TopicPageNotFound" xml:space="preserve">
+    <value>Topic Page Not Found</value>
+  </data>
+  <data name="NewsletterSubscribe" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="NewsletterTitle" xml:space="preserve">
+    <value>Subscribe to our mailing list</value>
+  </data>
+  <data name="NewsletterJoin" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep1Text" xml:space="preserve">
+    <value>Factorize {0}</value>
+  </data>
+  <data name="NotFoundErrorDescription" xml:space="preserve">
+    <value>The page or resource you requested was not found</value>
+  </data>
+  <data name="NotFoundHeader" xml:space="preserve">
+    <value>Not Found!</value>
+  </data>
+  <data name="NotFoundPageTitle" xml:space="preserve">
+    <value>Sorry - Page Not Found!</value>
+  </data>
+  <!-- QEVFS Solver-->
+  <!-- Scientific Notation Video -->
+  <data name="QEVFSStepFinalSpokenDescription" xml:space="preserve">
+    <value>The final result is {SolutionFinalResult}</value>
+  </data>
+  <data name="QEVFSSpokenDescription" xml:space="preserve">
+    <value>This deals with solving quadratic equations using the formula.</value>
+  </data>
+  <!-- END OF Scientific Notation Video -->
+  <data name="QEVFSStep1Title1" xml:space="preserve">
+    <value>Simplify the quadratic equation into its standard form</value>
+  </data>
+    <data name="QEVFSStep1TextUnit1" xml:space="preserve">
+      <value>{Step1Formula1}</value>
+    </data>
+    <data name="QEVFSStep1TextUnit2" xml:space="preserve">
+      <value>Simplify the equation by subtracting everything to the right of the equal sign from both sides of the equation and combining like terms.</value>
+    </data>
+    <data name="QEVFSStep2Title1" xml:space="preserve">
+        <value>Solve the equation using the quadratic formula</value>
+    </data>
+    <data name="QEVFSStep2TextUnit1" xml:space="preserve">
+        <value>The Quadratic formula provides the solution for {Step2Formula1}, in which A, B and C are numbers (or coefficients), as follows:</value>
+    </data> 
+    <data name="QEVFSStep2TextUnit2" xml:space="preserve">
+        <value>{Step2Formula2}</value>
+    </data>
+    <data name="QEVFSStep3Title1" xml:space="preserve">
+        <value>Determine the quadratic equation’s coefficients A, B and C</value>
+    </data>
+    <data name="QEVFSStep3TextUnit1" xml:space="preserve">
+        <value>The coefficients of our equation, {Step3RearrangedEquation}, are:</value>
+    </data>
+    <data name="QEVFSStep3TextUnit2" xml:space="preserve">
+        <value>A = {Step3aValue}</value>
+    </data>
+    <data name="QEVFSStep3TextUnit3" xml:space="preserve">
+        <value>B = {Step3bValue}</value>
+    </data>
+    <data name="QEVFSStep3TextUnit4" xml:space="preserve">
+        <value>C = {Step3cValue}</value>
+    </data>
+    <data name="QEVFSStep4Title1" xml:space="preserve">
+        <value>Plug these coefficients into the quadratic formula</value>
+    </data>
+    <data name="QEVFSStep4TextUnit1" xml:space="preserve">
+        <value>to get the result:</value>
+    </data>
+    <data name="QEVFSStep4TextUnit2" xml:space="preserve">
+        <value>{Step4FormulaResult}</value>
+    </data>
+    <data name="QEVFSStep5Title1" xml:space="preserve">
+        <value>Simplify square root {Step5SquareRootComplete}</value>
+    </data>
+    <data name="QEVFSStep5TextUnit1" xml:space="preserve">
+        <value>Simplify {Step5SquareRoot} by finding its prime factors.</value>
+    </data>
+    <data name="QEVFSStep5TextUnit2" xml:space="preserve">
+        <value>The prime factorization of {Step5PrimeFactor} is {Step5PrimeFactorResult}</value>
+    </data>
+    <data name="QEVFSStep5TextUnit3" xml:space="preserve">
+        <value>The prime factorization of {Step5PrimeFactor} is {Step5PrimeFactorResult}. There are no square factors, so {Step5SquareRoot} cannot be simplified.</value>
+    </data>
+    <data name="QEVFSStep6Title1" xml:space="preserve">
+        <value>Solve the equation for {Step6VariableCharacter}</value>
+    </data>
+    <data name="QEVFSStep6TextUnit1" xml:space="preserve">
+        <value>{Step6EquationToSolve}</value>
+    </data>
+    <data name="QEVFSStep6TextUnit2" xml:space="preserve">
+        <value>The ± means two answers are possible:</value>
+    </data>
+    <data name="QEVFSStep6TextUnit2b" xml:space="preserve">
+        <value>The ± means two answers are possible, but since zero is result of the square root, we have one solution: 
+
+{Step6Solution1}</value>
+    </data>
+    <data name="QEVFSStep6TextUnit3" xml:space="preserve">
+        <value>{Step6Solution1}</value>
+    </data>
+    <data name="QEVFSStep6TextUnit4" xml:space="preserve">
+        <value>or:</value>
+    </data>
+    <data name="QEVFSStep6TextUnit5" xml:space="preserve">
+        <value>{Step6Solution2}</value>
+    </data>
+    <data name="QEVFSStep6TextUnit6" xml:space="preserve">
+        <value>Separate the equations.
+{Step6EquationPlus} and {Step6EquationMinus}
+        </value>
+    </data>
+     
+  <!--End Of QEVFS Solver-->
+  <!-- OOO Solver -->
+  <data name="OOOSolverFinalResultSpokenDescription" xml:space="preserve">
+    <value>The final result is {SolutionFinalResult}</value>
+  </data>
+  <data name="OOOSolverFinalResultSpokenDescriptionAtEnding" xml:space="preserve">
+    <value>And so the final result is {SolutionFinalResult}</value>
+  </data>
+  <data name="OOOSolverSolverSpokenDescription" xml:space="preserve">
+    <value>This deals with the order of operations</value>
+  </data>
+  <data name="OOOSolverSolverSpokenDescriptionIntro" xml:space="preserve">
+    <value>You asked Tiger to calculate</value>
+  </data>
+
+  <data name="OOOStep1Title" xml:space="preserve">
+    <value>Simplify the expression</value>
+  </data>
+  <!-- End of OOO Solver -->
+  <!-- Distance Between Two Points Solver-->
+  
+  <data name="DistanceStep1Title" xml:space="preserve">
+    <value>Finding the distance using the distance formula</value>
+  </data>
+  <data name="DistanceStep1TextUnit1" xml:space="preserve">
+    <value>Point 1 is the intersection of X equals {Step1Point1X} and Y equals {Step1Point1Y}
+      <![CDATA[<br>]]> 
+      {Step1Point1}
+    </value>
+  </data>
+  <data name="DistanceStep1TextUnit2" xml:space="preserve">
+    <value>Point 2 is the intersection of X equals {Step1Point2X} and Y equals {Step1Point2Y}
+      <![CDATA[<br>]]> 
+      {Step1Point2}
+    </value>
+  </data>
+  <data name="DistanceStep1TextUnit3" xml:space="preserve">
+    <value>d is the distance between the points</value>
+  </data>
+  <data name="DistanceBetweenTwoPointsSolverTransitionSubstitute" xml:space="preserve">
+    <value>Plug the points in to the distance formula</value>
+  </data>
+  <data name="DistanceBetweenTwoPointsCalculator" xml:space="preserve">
+    <value>Distance between two points</value>
+  </data>
+  <data name="DistanceBetweenTwoPointsCalculator.plugin" xml:space="preserve">
+    <value>distance between two points</value>
+  </data>
+  <data name="distanceResultType" xml:space="preserve">
+    <value>The distance between the 2 points is:</value>
+  </data>
+  <data name="DistanceNTX1" xml:space="preserve">
+    <value>{Step1Point1X1Equals}</value>
+  </data>
+  <data name="DistanceNTX2" xml:space="preserve">
+    <value>{Step1Point1X2Equals}</value>
+  </data>
+  <data name="DistanceNTY1" xml:space="preserve">
+    <value>{Step1Point1Y1Equals}</value>
+  </data>
+  <data name="DistanceNTY2" xml:space="preserve">
+    <value>{Step1Point1Y2Equals}</value>
+  </data>
+  <data name="DistanceSolveRadical" xml:space="preserve">
+    <value>Solve the problem under the radical.</value>
+  </data>
+  <data name="DistanceSolveSQRT" xml:space="preserve">
+    <value>Find the square root under the radical.</value>
+  </data>
+  <data name="DistanceSolution" xml:space="preserve">
+    <value>And so, the solution is {Step1Solution}</value>
+  </data>
+  <data name="DistanceP1" xml:space="preserve">
+    <value>P1</value>
+  </data>
+  <data name="DistanceP2" xml:space="preserve">
+    <value>P2</value>
+  </data>
+  <data name="DistanceLine" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <!-- End of Distance Between Two Points Solver-->
+
+  <!-- Midpoint Solver-->
+  <data name="MidpointStep1Title" xml:space="preserve">
+    <value>Find the midpoint using the midpoint formula</value>
+  </data>
+  <data name="MidpointStep1TextUnit1" xml:space="preserve">
+    <value>The coordinates of Point 1 (P1) are: 
+      <![CDATA[<br>]]>
+      {Step1Point1}
+      <![CDATA[<br>]]>
+    </value>
+  </data>
+  <data name="MidpointStep1TextUnit2" xml:space="preserve">
+    <value><![CDATA[<br>]]>The coordinates of Point 2 (P2) are: 
+      <![CDATA[<br>]]>
+      {Step1Point2}
+      <![CDATA[<br>]]>
+    </value>
+  </data>
+  <data name="MidpointStep1TextUnit3" xml:space="preserve">
+    <value>
+      <![CDATA[<br>]]>
+      Pm is the midpoint of the two points.
+       <![CDATA[<br>]]>
+    </value>
+  </data>
+  <data name="MidpointStep1FindX" xml:space="preserve">
+    <value>Plug the X values of the points into the midpoint formula to find the X value of the midpoint.</value>
+  </data>
+  <data name="MidpointStep1FindY" xml:space="preserve">
+    <value>Plug the Y values of the points into the midpoint formula to find the Y value of the midpoint.</value>
+  </data>
+  <data name="MidpointStep1TextUnit4" xml:space="preserve">
+    <value>
+      And so, the midpoint is: Pm{Step1Midpoint}
+    </value>
+  </data>
+  <data name="MidpointCalculator" xml:space="preserve">
+    <value>Finding the midpoint between two points</value>
+  </data>
+  <data name="MidpointCalculator.plugin" xml:space="preserve">
+    <value>finding the midpoint between two points</value>
+  </data>
+  <data name="MidpointResultType" xml:space="preserve">
+    <value>The midpoint between the 2 points is:</value>
+  </data>
+  <data name="MidpointLine" xml:space="preserve">
+    <value>Pm</value>
+  </data>
+  <data name="MidpointP1" xml:space="preserve">
+    <value>P1</value>
+  </data>
+  <data name="MidpointP2" xml:space="preserve">
+    <value>P2</value>
+  </data>
+  <data name="MidpointPm" xml:space="preserve">
+    <value>Pm</value>
+  </data>
+  <!-- End Midpoint Solver-->
+
+  <!-- LCM Solver -->
+  <data name="LeastCommonMultipleSolverSolverSpokenDescription" xml:space="preserve">
+    <value>You entered an least common multiple problem!</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep1Hint" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeastCommonMultipleSolverStep1Spoken" xml:space="preserve">
+    <value>To find the LCM, we start by factoring each number.</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep1Title" xml:space="preserve">
+    <value>Find the prime factors of {Step1Input}</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep1TextUnit1" xml:space="preserve">
+    <value>The prime {Step1PrimeFactorsList.Count: factor | factors } of {Step1Input} {Step1PrimeFactorsList.Count: is| are} {Step1PrimeFactorsList:{ListElement}|, | and }.</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep1TextUnit2" xml:space="preserve">
+    <value>{Step1PrimeFactorsList:{ListElement}|, | and } is a prime factor.</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep1TextUnit3" xml:space="preserve">
+    <value>{Step1Input} does not have a prime factorization.</value>
+  </data>
+  <data name="SolverTechniquesEquationTransitionTreeImgAlt" xml:space="preserve">
+    <value>Tree view of the prime factors of {FactorInput}: {FactorsList:{ListElement}|, | and }</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep2Title" xml:space="preserve">
+    <value>Build a prime factors table</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep2TableColPrimeFactor" xml:space="preserve">
+    <value>Prime factor</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep2TableColLCMmax" xml:space="preserve">
+    <value>Max. occurrence</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep2TableTitle" xml:space="preserve">
+    <value>Determine the maximum number of times each prime factor ({Step2AllUniquePrimeFactorsList:{ListElement}|, }) occurs in the factorization of the given numbers:
+  </value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep2TableTextUnit1" xml:space="preserve">
+    <value>The prime {Step2AllFactorsWithOneOccurrenceList.Count: factor | factors } {Step2AllFactorsWithOneOccurrenceList:{ListElement}|, | and } {Step2AllFactorsWithOneOccurrenceList.Count: occurs | occur } one time.</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep2TableTextUnit2" xml:space="preserve">
+    <value>The prime {Step2AllFactorsWithMoreOccurrencesList.Count: factor | factors } {Step2AllFactorsWithMoreOccurrencesList:{ListElement}|, | and } {Step2AllFactorsWithMoreOccurrencesList.Count: occurs | occur } more than once.</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep2TableTextUnit3" xml:space="preserve">
+    <value>The prime {Step2AllFactorsWithOneOccurrenceList.Count: factor | factors } {Step2AllFactorsWithOneOccurrenceList:{ListElement}|, | and } {Step2AllFactorsWithOneOccurrenceList.Count: occurs | occur } one time,
+        while {Step2AllFactorsWithMoreOccurrencesList:{ListElement}|, | and } {Step2AllFactorsWithMoreOccurrencesList.Count: occurs | occur } more than once.</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStep2Spoken" xml:space="preserve">
+    <value>We continue, by counting how often each prime factor appears.</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStepFinalTitle" xml:space="preserve">
+    <value>Calculate the LCM</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStepFinalSpokenDescription" xml:space="preserve">
+    <value>The least common denominator is {SolutionFinalResult}</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStepFinalTextUnit1" xml:space="preserve">
+    <value>The least common multiple is the product of all factors in the greatest number of their occurrence.</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStepFinalTextUnit2" xml:space="preserve">
+    <value>LCM = {StepFinalLCMFinalEquation}</value>
+  </data>
+  <data name="LeastCommonMultipleSolverStepFinalTextUnit3" xml:space="preserve">
+    <value>The least common multiple of {StepFinalAllInputsList:{ListElement}|, | and } is {StepFinalResult}.</value>
+  </data>
+  <data name="ScientificNotationStepFinalSpokenDescription" xml:space="preserve">
+    <value>The final result is {SolutionFinalResult}</value>
+  </data>
+  <data name="ScientificNotationSpokenDescription" xml:space="preserve">
+    <value>This deals with scientific notation.</value>
+  </data>
+  <data name="ScientificNotationSolverStep1Title1NLT1" xml:space="preserve">
+    <value>Make the number a new number between 1 and 10</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit1NLT1" xml:space="preserve">
+    <value>Move the decimal point to make {Step1OriginalNumberNLT1} a new number between 1 and 10. Because our original number is less than one, we move the decimal point to the right. Drop any zeroes in front of the number. Keep track of how many times we move the decimal point.</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit2NLT1" xml:space="preserve">
+    <value>{Step1OriginalNumberSolved2NLT1}</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit3NLT1" xml:space="preserve">
+    <value>Our new number is {Step1OriginalNumberSolvedNLT1}. We moved the decimal point {Step1PowerOfTenNumberNLT1} times.</value>
+  </data>
+  <data name="ScientificNotationSolverStep2Title1NLT1" xml:space="preserve">
+    <value>Define the power of 10</value>
+  </data>
+  <data name="ScientificNotationSolverStep2TextUnit1NLT1" xml:space="preserve">
+    <value>Because our original number was less than one, the exponent defining the power of 10 is negative. Remember, we moved the decimal point {Step2PowerOfTenNumberNLT1} times, so the exponent is negative {Step2PowerOfTenNumberNLT1}</value>
+  </data>
+  <data name="ScientificNotationSolverStep2TextUnit2NLT1" xml:space="preserve">
+    <value>{Step2OriginalNumberSolvedNLT1}</value>
+  </data>
+  <data name="ScientificNotationSolverStep3Title1NLT1" xml:space="preserve">
+    <value>Final result</value>
+  </data>
+  <data name="ScientificNotationSolverStep3TextUnit1NLT1" xml:space="preserve">
+    <value>{Step3FinalResultNLT1}</value>
+  </data>
+  <data name="ScientificNotationSolverStep1Title1NGT10" xml:space="preserve">
+    <value>Write the number as a decimal</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit1NGT10" xml:space="preserve">
+    <value>{Step1OriginalNumberSolved1NGT10}</value>
+  </data>
+  <data name="ScientificNotationSolverStep2Title1NGT10" xml:space="preserve">
+    <value>Make it a new number between 1 and 10</value>
+  </data>
+  <data name="ScientificNotationSolverStep2TextUnit1NGT10" xml:space="preserve">
+    <value>Move the decimal point to make {Step2OriginalNumberSolved1NGT10} a new number between 1 and 10. Because our number is greater than 10, we move the decimal point to the left. Drop any trailing zeroes. Keep track of how many times we move the decimal point.</value>
+  </data>
+  <data name="ScientificNotationSolverStep2TextUnit2NGT10" xml:space="preserve">
+    <value>{Step2OriginalNumberSolved1NGT10} -&gt; {Step2OriginalNumberSolved2NGT10}</value>
+  </data>
+  <data name="ScientificNotationSolverStep2TextUnit3NGT10" xml:space="preserve">
+    <value>Our new number is {Step2OriginalNumberSolved2NGT10}. We moved the decimal point {Step2PowerOfTenNumberNGT10} times.</value>
+  </data>
+  <data name="ScientificNotationSolverStep3Title1NGT10" xml:space="preserve">
+    <value>Define the power of 10</value>
+  </data>
+  <data name="ScientificNotationSolverStep3TextUnit1NGT10" xml:space="preserve">
+    <value>Because our original number was greater than 10, the power of 10 is positive. Remember, we moved the decimal point {Step3PowerOfTenNumberNGT10} times, so the exponent is positive {Step3PowerOfTenNumberNGT10}:</value>
+  </data>
+  <data name="ScientificNotationSolverStep3TextUnit2NGT10" xml:space="preserve">
+    <value>{Step3OriginalNumberSolved1NGT10} </value>
+  </data>
+  <data name="ScientificNotationSolverStep4Title1NGT10" xml:space="preserve">
+    <value>Final result</value>
+  </data>
+  <data name="ScientificNotationSolverStep4TextUnit1NGT10" xml:space="preserve">
+    <value>{Step4FinalResultNGT10}</value>
+  </data>
+  <data name="ScientificNotationSolverStep1Title1SPI" xml:space="preserve">
+    <value>Convert to decimal notation</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit1SPI" xml:space="preserve">
+    <value>{Step1OriginalEquationSPI}</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit2SPI" xml:space="preserve">
+    <value>The exponent is {Step1PowerOfTenNumberSPI}, making it 10 to the power of {Step1PowerOfTenNumberSPI}. As the exponent is positive, the solution is a number greater than the origin or base number. To find our answer, we move the decimal to the right {Step1PowerOfTenNumberSPI} time(s):</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit3SPI" xml:space="preserve">
+    <value>{Step1OriginalNumberSPI} -&gt; {Step1OriginalNumberSolvedSPI}</value>
+  </data>
+  <data name="ScientificNotationSolverStep2Title1SPI" xml:space="preserve">
+    <value>Final result</value>
+  </data>
+  <data name="ScientificNotationSolverStep2TextUnit1SPI" xml:space="preserve">
+    <value>{Step2FinalResultSPI}</value>
+  </data>
+  <data name="ScientificNotationSolverStep1Title1SNI" xml:space="preserve">
+    <value>Convert to decimal notation</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit1SNI" xml:space="preserve">
+    <value>{Step1OriginalEquationSNI}</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit2SNI" xml:space="preserve">
+    <value>The exponent is -{Step1PowerOfTenNumberSNI}, making it 10 to the power of negative {Step1PowerOfTenNumberSNI}. When an exponent is negative, the solution is a number less than the origin or base number. To find our answer, we move the decimal to the left {Step1PowerOfTenNumberSNI} times:</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit3SNI" xml:space="preserve">
+    <value>{Step1OriginalNumberSNI} -&gt; {Step1OriginalNumberSolvedSNI}</value>
+  </data>
+  <data name="ScientificNotationSolverStep2Title1SNI" xml:space="preserve">
+    <value>Final result</value>
+  </data>
+  <data name="ScientificNotationSolverStep2TextUnit1SNI" xml:space="preserve">
+    <value>{Step2FinalResultSNI}</value>
+  </data>
+  <data name="ScientificNotationSolverStep1Title1ZI" xml:space="preserve">
+    <value>0 can be written in more than one way in scientific notation</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit1ZI" xml:space="preserve">
+    <value>{Step1FinalResultZI}</value>
+  </data>
+  <data name="ScientificNotationSolverStep1Title1NB1A10" xml:space="preserve">
+    <value>Define the power of 10</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit1NB1A10" xml:space="preserve">
+    <value>The absolute value of {Step1OriginalNumberNB1A10} is between 1 and 10, so the original number stays the same because the power of 10 is 1 and 0 is the exponent.</value>
+  </data>
+  <data name="ScientificNotationSolverStep1TextUnit2NB1A10" xml:space="preserve">
+    <value>{Step1OriginalNumberSolved1NB1A10}</value>
+  </data>
+  <data name="ScientificNotationSolverStep2Title1NB1A10" xml:space="preserve">
+    <value>Final result</value>
+  </data>
+  <data name="ScientificNotationSolverStep2TextUnit1NB1A10" xml:space="preserve">
+    <value>{Step2FinalResultNB1A10}</value>
+  </data>
+  <data name="ScientificNotationSolverFinalResultSpokenDescription" xml:space="preserve">
+    <value>The final result is {SolutionFinalResult}</value>
+  </data>
+  <data name="AbsoluteValueEquations" xml:space="preserve">
+    <value>Absolute value equations</value>
+  </data>
+  <data name="AbsoluteValueInequalities" xml:space="preserve">
+    <value>Absolute value inequalities</value>
+  </data>
+  <data name="AbsoluteValueEquationsContent" xml:space="preserve">
+    <value>The absolute value of a number, depicted between two bars, may be thought of as the number of units between it and zero on the number line, whether to the left or the right of zero, and is always a positive integer.
+     <![CDATA[<br><br>]]>
+Absolute Value Equations and Inequalities are solved and explained step by step by the Tiger Algebra Absolute Value module.</value>
+  </data>
+  <data name="AddingSubtractingFindingLeastCommonMultiple" xml:space="preserve">
+    <value>Adding subtracting finding least common multiple</value>
+  </data>
+  <data name="AddingSubtractingFindingLeastCommonMultipleContent" xml:space="preserve">
+    <value>The Tiger Algebra Solver shows you how to add and subtract fractions and how to find their least common multiple for example: </value>
+  </data>
+  <data name="ApproximationTopic" xml:space="preserve">
+    <value>Approximation</value>
+  </data>
+  <data name="Approximation" xml:space="preserve">
+    <value>Approximation</value>
+  </data>
+  <data name="ApproximationContent" xml:space="preserve">
+    <value>Approximation in mathematics is defined as a quantity close in value to but not the same as a desired quantity. Two mathematical symbols denote approximate equality: a wavy equal sign (≈) and a dotted equal sign (≒ or ≓).
+  <![CDATA[<br><br>]]>
+Approximation is often used when an precise form or integer is not known or easily obtainable as well as with irrational numbers, such as π. Approximation can turn a complex calculation, for example, involving decimals into one that uses integers, or whole numbers, making it easier to solve. This is achieved by rounding the decimal values before performing any further operations.
+    </value>
+  </data>
+  <data name="ArithmeticSequence" xml:space="preserve">
+    <value>Arithmetic sequence</value>
+  </data>
+  <data name="ArithmeticSequenceContent" xml:space="preserve">
+    <value>Our solver recognizes arithmetic progressions and displays members of the series, its general form as well as the sum of its members.
+Simply enter the members separated by commas, for example: <![CDATA[<math>5,10,15,20,25</math>]]>
+	</value>
+  </data>
+  <data name="BasicComplexOperations" xml:space="preserve">
+    <value>Basic complex operations</value>
+  </data>
+  <data name="BasicComplexOperationsContent" xml:space="preserve">
+    <value>A complex number is a number that can be expressed in the form <![CDATA[<math>a + bi</math>]]>, where a and b are real numbers and i is the imaginary unit, that satisfies the equation <![CDATA[<math>x^2=−1</math>]]>, that is, <![CDATA[<math>i^2=−1</math>]]>. In this expression, a is the real part and b is the imaginary part of the complex number.
+      <![CDATA[<br><br>]]>
+The Tiger Algebra Calculator performs the basic operations on complex/imaginary numbers and shows you the step by step solution.
+	</value>
+  </data>
+  <data name="CancelingOut" xml:space="preserve">
+    <value>Canceling out</value>
+  </data>
+  <data name="CancelingOutContent" xml:space="preserve">
+    <value>When simplifying fractions you can sometimes divide the top (NUMERATOR) and bottom (DENOMINATOR) of a fraction by the same number. This simplification of a fraction is referred to as canceling out/down . Common problems require you to write a fraction in its simplest terms. To achieve that, you must keep canceling the fraction until it cannot be cancelled anymore.
+<![CDATA[<br><br>]]>
+The Tiger Algebra Solver and Calculator can help you check your answers when canceling out.
+    </value>
+  </data>
+  <data name="CircleTopic" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="CircleContent" xml:space="preserve">
+    <value>A circle is a simple shape in Euclidean geometry. It is the set of all points in a plane that are at a given distance from a given point, the centre; equivalently it is the curve traced out by a point that moves so that its distance from a given point is constant. The distance between any of the points and the centre is called the radius.
+	</value>
+  </data>
+  <data name="CircleContent2" xml:space="preserve">
+    <value>Tiger Algebra is currently capable of finding</value>
+  </data>
+  <data name="CircleContent3" xml:space="preserve">
+    <value>Information about a circle with:</value>
+  </data>
+  <data name="CircleContent4" xml:space="preserve">
+    <value>center at</value>
+  </data>
+  <data name="CircleContent5" xml:space="preserve">
+    <value>and a radius of</value>
+  </data>
+  <data name="Combination" xml:space="preserve">
+    <value>Combination</value>
+  </data>
+  <data name="CombinationTopic" xml:space="preserve">
+    <value>Combination</value>
+  </data>
+  <data name="CombinationContent" xml:space="preserve">
+    <value>In mathematics, a combination is a way of selecting items from a collection, such that (unlike permutations) the order of selection does not matter. In smaller cases it is possible to count the number of combinations.
+<![CDATA[<br><br>]]>
+Tiger Algebra calculates the number of combinations showing you the step by step solution. To activate, enter your input in one of the following forms:
+	</value>
+  </data>
+  <data name="DistanceBetweenTwoPointsAndTheirMidpoint" xml:space="preserve">
+    <value>Distance between two points and their midpoint</value>
+  </data>
+  <data name="DistanceBetweenTwoPointsAndTheirMidpointContent" xml:space="preserve">
+    <value>Enter two points, for example: <![CDATA[<math>(1,2)</math>]]> and <![CDATA[<math>(3,4)</math>]]> and click solve to find the distance between them and their midpoint
+	</value>
+  </data>
+  <data name="DividingExponents" xml:space="preserve">
+    <value>Dividing exponents</value>
+  </data>
+  <data name="DividingExponentsContent" xml:space="preserve">
+    <value>The Tiger Algebra Solver shows you, step by step, how to divide exponents. For example:
+	</value>
+  </data>
+  <data name="DividingFractions" xml:space="preserve">
+    <value>Dividing fractions</value>
+  </data>
+  <data name="DividingFractionsContent" xml:space="preserve">
+    <value>The Tiger Algebra Calculator divides fractions, showing you the step by step solution for example:
+	</value>
+  </data>
+  <data name="EquationswhichareReducibletoQuadratic" xml:space="preserve">
+    <value>Equations which are reducible to quadratic</value>
+  </data>
+  <data name="EquationswhichareReducibletoQuadraticContent" xml:space="preserve">
+    <value>The Tiger Algebra solver shows you, step by step how to find which equations are reducable to which Quadratic equations.
+Simply enter your equation as in the following examples:
+	</value>
+  </data>
+  <data name="FactoringBinomialsAsSumOrDifferenceOfCubes" xml:space="preserve">
+    <value>Factoring binomials as sum or difference of cubes</value>
+  </data>
+  <data name="FactoringBinomialsAsSumOrDifferenceOfCubesContent" xml:space="preserve">
+    <value>Factoring binomials as the sum or the difference of cubes
+<![CDATA[<br><br>]]>
+To find the sum or the difference of cubes, you have to apply one of two factoring formulas. They are almost the same, with one small difference: the placement of the minus sign.
+<![CDATA[<br><br>]]>
+Formula for the sum of cubes:
+<![CDATA[<br>]]>
+<![CDATA[<math>a^3 + b^3 = (a + b)(a^2 – ab + b^2)</math>]]>
+<![CDATA[<br><br>]]>
+Formula for the difference of cubes:
+<![CDATA[<br>]]>
+<![CDATA[<math>a^3 – b^3 = (a – b)(a^2 + ab + b^2)</math>]]>
+<![CDATA[<br><br>]]>
+In the formula for factoring the sum of cubes, the minus sign is found in the quadratic factor: <![CDATA[<math>a^2 – ab + b^2</math>]]>. In the one used to factor the difference of cubes, the minus sign is located in the linear factor: <![CDATA[<math>a – b</math>]]>.
+<![CDATA[<br><br>]]>
+Be sure to apply the appropriate factoring formula!
+<![CDATA[<br><br>]]>
+Enter the binomial into the calculator and Tiger will show you, step by step, how to solve it.
+	</value>
+  </data>
+  <data name="FactoringBinomialsasDifferenceofSquares" xml:space="preserve">
+    <value>Factoring binomials as difference of squares</value>
+  </data>
+  <data name="FactoringBinomialsasDifferenceofSquaresContent" xml:space="preserve">
+    <value>A binomial is factorable only if it is one of three things a Difference of Squares, a Difference of Cubes, or a Sum of Cubes. A binomial is a Difference of Squares if both terms are perfect squares. Recall we may have to factor out a common factor first.
+<![CDATA[<br><br>]]>
+If we determine that a binomial is a difference of squares, we factor it into two binomials. The first being the square root of the first term minus the square root of the second term. The second being the square root of the first term plus the square root of the second term.
+	</value>
+  </data>
+  <data name="FactoringMultiVariablePolynomials" xml:space="preserve">
+    <value>Factoring multivariable polynomials</value>
+  </data>
+  <data name="FactoringMultiVariablePolynomialsContent" xml:space="preserve">
+    <value>The Tiger Algebra Calculator shows you how to factor Multi Variable Polynomial step by step.
+	</value>
+  </data>
+  <data name="Factorial" xml:space="preserve">
+    <value>Factorial</value>
+  </data>
+  <data name="FactorialTopic" xml:space="preserve">
+    <value>Factorials</value>
+  </data>
+  <data name="FactorialContent" xml:space="preserve">
+    <value>To find the factorial of a positive integer, it must be multiplied by every positive number less than or equal to it. The factorial operation, denoted as n!, states that
+<![CDATA[<br><br>]]>
+<![CDATA[<math>n! = n(n–1)(n–2)(n–3) · · · 3 · 2 · 1</math>]]>
+<![CDATA[<br><br>]]>
+For example: <![CDATA[<math>4!=4*3*2*1=24</math>]]>
+<![CDATA[<br><br>]]>
+By definition, <![CDATA[<math>0!=1</math>]]> or in other words, the factorial value of 0 is 1.
+<![CDATA[<br><br>]]>
+The factorial operation is often used with sets in formulas that count the number of elements in the union, intersection, or complement of sets.
+    </value>
+  </data>
+  <data name="FactoringPolynomialsHavingMoreThan3Terms" xml:space="preserve">
+    <value>Factoring polynomials with four or more terms</value>
+  </data>
+  <data name="FactoringPolynomialsHavingMoreThan3TermsContent" xml:space="preserve">
+    <value>A simple way to approach factoring a polynomial with four or more terms is by grouping it into sets of two. This method involves examining these sets together to see whether a particular technique could be applied to both. One technique to start with is checking whether it is possible to find the greatest common factor (GCF) between a set of two terms. If the GCF cannot be found, the polynomials could be grouped in another way and examined for another technique.
+There is always the possibility that the polynomial is prime and cannot be factored.
+    </value>
+  </data>
+  <data name="FactorTrinomials" xml:space="preserve">
+    <value>Factor trinomials</value>
+  </data>
+  <data name="FactorTrinomialsContent" xml:space="preserve">
+    <value>Tiger Algebra shows you step by step how to factor trinomials according in different methods.
+	</value>
+  </data>
+  <data name="FindAreaofTrianglegivenbyits3sides" xml:space="preserve">
+    <value>Find area of triangle given by its 3 sides</value>
+  </data>
+  <data name="FindAreaofTrianglegivenbyits3sidesContent" xml:space="preserve">
+    <value>To find the Area of Triangle given its 3 sides, enter the sizes of the three sides seperated by commas and wrapped in parentheses. Tiger Algebra will show you the step by step solution.
+Sample input: <![CDATA[<math>(3,4,5)</math>]]>
+	</value>
+  </data>
+  <data name="FindPrimeFactors" xml:space="preserve">
+    <value>Find prime factors</value>
+  </data>
+  <data name="FindPrimeFactorsContent" xml:space="preserve">
+    <value>A prime number can only be divided by one or itself. Composite (non-prime) whole numbers can be written as a product of their prime factors. Enter factors(any number) or primes(any number) into the algebra calculator and Tiger will find its prime factors for you.
+	</value>
+  </data>
+  <data name="GCFCalculator" xml:space="preserve">
+    <value>GCF calculator</value>
+  </data>
+  <data name="GCFCalculatorContent" xml:space="preserve">
+    <value>The greatest common factor, or GCF, is the greatest factor that divides two numbers. Tiger Algebra shows you, step by step, how to find the GCF of two or three numbers.
+<![CDATA[<br><br>]]>
+For example, enter 
+	</value>
+  </data>
+  <data name="GCFCalculatorContent2" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="GCFCalculatorContent3" xml:space="preserve">
+    <value>and click solve</value>
+  </data>
+  <data name="GeometricSeries" xml:space="preserve">
+    <value>Geometric series</value>
+  </data>
+  <data name="GeometricSeriesContent" xml:space="preserve">
+    <value>In mathematics, a geometric series is a series with a constant ratio between successive terms. For example, the series <![CDATA[<math>1,2,4,8</math>]]> is geometric, because each successive term can be obtained by multiplying the previous term by <![CDATA[<math>2</math>]]>.
+	</value>
+  </data>
+  <data name="IdentifyingPerfectCubes" xml:space="preserve">
+    <value>Identifying perfect cubes</value>
+  </data>
+  <data name="IdentifyingPerfectCubesContent" xml:space="preserve">
+    <value>A perfect cube is the cube of another polynomial. The Tiger Algebra solver finds prefect cubes and shows you step by step solutions.
+	</value>
+  </data>
+  <data name="LCMCalculator" xml:space="preserve">
+    <value>LCM calculator</value>
+  </data>
+  <data name="LCMCalculatorContent" xml:space="preserve">
+    <value>The least common multiple, lowest common multiple, or smallest common multiple (LCM) of a set of numbers (e.g., a and b) is usually denoted by LCM(a, b). The LCM of these numbers is the smallest positive integer that is divisible by, or a multiple of, all the numbers in the set. 
+<![CDATA[<br><br>]]>
+The Tiger Algebra LCM calculator not only finds the LCM but shows the individual steps involved in doing so, helping you to better understand and remember the process.
+	</value>
+  </data>
+  <data name="LinearEquationswithOneUnknown" xml:space="preserve">
+    <value>Linear equations with one unknown</value>
+  </data>
+  <data name="LinearEquationswithOneUnknownContent" xml:space="preserve">
+    <value>An equation of the shape: <![CDATA[<math>ax + b = 0</math>]]>, where  a and  b – the known numbers, x – an unknown value, is called a linear equation in one unknown. To solve this equation means to find the numerical value of  x , at which this equation becomes an identity.
+<![CDATA[<br><br>]]>
+The Tiger Algebra Calculator solves linear equations with one unknown, showing you the step by step solution. Simply enter your equation and hit solve.
+	</value>
+  </data>
+  <data name="LinearEquationswithThreeUnknowns" xml:space="preserve">
+    <value>Linear equations with three unknowns</value>
+  </data>
+  <data name="LinearEquationswithThreeUnknownsContent" xml:space="preserve">
+    <value>A linear system of three equations with three variables is any system that can be written in the form.
+	</value>
+  </data>
+  <data name="LinearEquationswithThreeUnknownsContent2" xml:space="preserve">
+    <value>where the constants (a,b,c,d,e,f,g,h and i) can be zero as long as each equation has at least one variable (x,y or z) in it.
+<![CDATA[<br><br>]]>
+In addition, for the system to be called linear, the variables can only to the first power, are only in the numerator and there are no products of variables in any of the equations.
+<![CDATA[<br><br>]]>
+A solution to a system of equations are values of x, y and z such that, when substituted into the equations, satisfies both equations at the same time.
+<![CDATA[<br><br>]]>
+Separate your equations with a semi-colon ";"" when feeding them to the Tiger.
+	</value>
+  </data>
+  <data name="LinearEquationswithTwoUnknowns" xml:space="preserve">
+    <value>Linear equations with two unknowns</value>
+  </data>
+  <data name="LinearEquationswithTwoUnknownsContent" xml:space="preserve">
+    <value>A linear system of two equations with two variables is any system that can be written in the form.
+<![CDATA[<br><br>]]>
+<![CDATA[<math>ax+by=p</math>]]>
+<![CDATA[<br>]]>
+<![CDATA[<math>cx+dy=q</math>]]>
+<![CDATA[<br><br>]]>
+where the constants (a,b,c and d) can be zero as long as each equation has at least one variable (x or y) in it.
+In addition, for the system to be called linear, the variables can only to the first power, are only in the numerator and there are no products of variables in any of the equations.
+<![CDATA[<br><br>]]>
+A solution to a system of equations is a value of x and a value of y that, when substituted into the equations, satisfies both equations at the same time.
+<![CDATA[<br><br>]]>
+Separate you equations with a semi-colon ";" when feeding them to the Tiger
+	</value>
+  </data>
+  <data name="LinearEquationsWithFourUnknowns" xml:space="preserve">
+    <value>Linear equations with four unknowns</value>
+  </data>
+  <data name="LinearEquationsWithFourUnknownsContent" xml:space="preserve">
+    <value>A group of four linear equations with four unknown factors forms a system of equations. To solve this system means finding the value of the unknown factors in a manner that verifies all of the equations in the system. The overall concept behind solving a system of equations is combining the equations in such a way that the number of variables is reduced. This can be done by substitution or elimination (also called row reduction), but also by graphing or using matrices.</value>
+  </data>
+  <data name="OtherFactorizations" xml:space="preserve">
+    <value>Other factorizations</value>
+  </data>
+  <data name="OtherFactorizationsContent" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SolvingLinearEquationsBySubstitution" xml:space="preserve">
+    <value>Solving linear equations by substitution</value>
+  </data>
+  <data name="SolvingLinearEquationsBySubstitutionContent" xml:space="preserve">
+    <value>Substitution is one of the methods for solving linear equations. It is a good choice if there is a variable with a coefficient of 1. This method involves solving one of the equations for a variable and then substituting that expression into another equation to solve for another variable. This will produce a single equation with one variable, which can then be solved algebraically.</value>
+  </data>
+  <data name="LinearInequalities" xml:space="preserve">
+    <value>Linear inequalities</value>
+  </data>
+  <data name="MultiplyingExponents" xml:space="preserve">
+    <value>Multiplying exponents</value>
+  </data>
+  <data name="MultiplyingExponentsContent" xml:space="preserve">
+    <value>Exponents are a shorter way of noting repeated multiplication of the same thing by itself.
+      <![CDATA[<br>]]>
+For example <![CDATA[<math>7*7*7*7=7^4</math>]]>
+      <![CDATA[<br>]]>
+The 'exponent', 4 in the above example, tells us how many times the value is being multiplied. The value being multiplied, 7 in our example, is called the 'base'.
+The Tiger Algebra multiplies exponents, showing you the step by step solution.
+      <![CDATA[<br>]]>
+For example, you can enter 
+	</value>
+  </data>
+  <data name="MultiplyingFractions" xml:space="preserve">
+    <value>Multiplying fractions</value>
+  </data>
+  <data name="MultiplyingFractionsContent" xml:space="preserve">
+    <value>The Tiger Algebra Calculator multiplies fractions, showing you the step by step solution for example:
+	</value>
+  </data>
+  <data name="OrderedPairs" xml:space="preserve">
+    <value>Ordered pairs</value>
+  </data>
+  <data name="OrderedPairsContent" xml:space="preserve">
+    <value>Ordered pairs An Ordered pair (a, b) is a pair of objects. The order in which the objects appear in the pair is significant: the ordered pair (a, b) is different from the ordered pair (b, a) unless a = b. (In contrast, the unordered pair {a, b} equals the unordered pair {b, a}.)
+<![CDATA[<br><br>]]>
+To activate, enter a list of points (x,y) and either domain,range or function as in the live examples below
+	</value>
+  </data>
+  <data name="ParabolaFindingVertexAndXIntercepts" xml:space="preserve">
+    <value>Parabola finding vertex and X intercepts</value>
+  </data>
+  <data name="ParabolaFindingVertexAndXInterceptsContent" xml:space="preserve">
+    <value>Vertex and X-Intercept of a Parabola
+<![CDATA[<br><br>]]>
+Parabolas have a highest or a lowest point, known as their vertex, which represents its turning point on a graph. If a parabola opens upward, its vertex is the lowest point on the graph, or absolute minimum. If it opens downward, its vertex is the highest point, or absolute maximum. Each parabola has a vertical line or axis of symmetry that passes through its vertex. Because of this symmetry, the axis passes through the midpoint of the two x-intercepts (roots or solutions) of the parabola. That is, if the parabola does indeed have two real solutions. 
+<![CDATA[<br><br>]]>
+The general form of a parabola’s equation is <![CDATA[<math>y=ax^2+bx+c</math>]]>
+<![CDATA[<br>]]>
+The vertex form a parabola’s equation is <![CDATA[<math>y=a(x–h)^(2)+k</math>]]>
+<![CDATA[<br><br>]]>
+If the leading coefficient a is greater than 0, the parabola will open upward. If a is less than 0, the parabola will open downward.
+<![CDATA[<br><br>]]>
+For any parabola given in the general form of <![CDATA[<math>ax^2 + bx + c</math>]]>, the x-coordinate of the vertex is given by <![CDATA[<math>–b/(2a)</math>]]>.
+<![CDATA[<br><br>]]>
+To determine the y-intercept, use the general form and set <![CDATA[<math>x=0</math>]]>.
+<![CDATA[<br><br>]]>
+The vertex is apparent (h, k) in the vertex form.
+<![CDATA[<br><br>]]>
+Parabolas can model many real life situations, such as the height above ground of an object traveling upward for some period of time. The vertex of the parabola can provide us with information, for example, about the maximum height reachable by the upward traveling object. This is one reason we might want to be able to find the coordinates of the vertex.
+	</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="Percent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="PercentContent" xml:space="preserve">
+    <value>A Percent Is a ratio whose second term Is 100. Percent means parts per hundred. The word originates from the Latin phrase per centum, which means per hundred. The symbol % Is used for percent
+	</value>
+  </data>
+  <data name="Pi" xml:space="preserve">
+    <value>Pi</value>
+  </data>
+  <data name="PiTopic" xml:space="preserve">
+    <value>Pi</value>
+  </data>
+  <data name="PiContent" xml:space="preserve">
+    <value>The number Pi is a mathematical constant, the ratio of a circle's circumference to its diameter, commonly approximated as 3.14159.
+	</value>
+  </data>
+  <data name="PolynomialLongDivision" xml:space="preserve">
+    <value>Polynomial long division</value>
+  </data>
+  <data name="PolynomialLongDivisionContent" xml:space="preserve">
+    <value>In algebra, polynomial long division is an algorithm for dividing a polynomial by another polynomial of the same or lower degree, a generalised version of the familiar arithmetic technique called long division. It can be done easily by hand, because it separates an otherwise complex division problem into smaller ones. Sometimes using a shorthand version called synthetic division is faster, with less writing and fewer calculations. Another abbreviated method is polynomial short division (Blomqvist's method).
+	</value>
+  </data>
+  <data name="PolynomialRootCalculator" xml:space="preserve">
+    <value>Polynomial root calculator</value>
+  </data>
+  <data name="PolynomialRootCalculatorContent" xml:space="preserve">
+    <value>Polynomial roots (zeroes) are calculated by applying a set of methods aimed at finding values of n for which f(n)=0. One method uses the Rational Root (or Rational Zero) Test.
+This is also be referred to as the Rational Root (or Rational Zero) Theorem or the p/q theorem. Regardless of its name, it only finds rational roots that are the number n that can be expressed as the quotient of two integers.
+<![CDATA[<br><br>]]>
+The Rational Root Theorem states that if a polynomial has integer coefficients, then every rational zero of f(x) has the form p/q where p is a factor of the trailing constant a0 and q is a factor of the leading coefficient an. When the leading coefficient is 1, the possible rational zeros are the factors of the constant term.
+<![CDATA[<br><br>]]>
+Enter your problem into Tiger’s calculator and the step-by-step solution will help you understand how find the roots of a polynomial.
+	</value>
+  </data>
+  <data name="Powersofi" xml:space="preserve">
+    <value>Powers of i</value>
+  </data>
+  <data name="PowersofiContent" xml:space="preserve">
+    <value>See how to calculate the value of i to any power by entering <![CDATA[<math>i^25</math>]]> or simply i38 as the tiger calculator input.
+	</value>
+  </data>
+  <data name="PropertiesofaStraightLine" xml:space="preserve">
+    <value>Properties of a straight line</value>
+  </data>
+  <data name="PropertiesofaStraightLineContent" xml:space="preserve">
+    <value>Given an equation representing a straight line, the Tiger Algebra Solver and Calculator will show you, step by step, how to find the slope, x intercept and y intercept and graph representation.
+	</value>
+  </data>
+  <data name="PullingOutLikeTerms" xml:space="preserve">
+    <value>Pulling out like terms</value>
+  </data>
+  <data name="PullingOutLikeTermsContent" xml:space="preserve">
+    <value>In algebra, like terms are terms that have the same variables and powers. The Tiger Algebra solver helps you find and group together like terms easily by showing you step by step solutions.
+	</value>
+  </data>
+  <data name="RaisingtoaPower" xml:space="preserve">
+    <value>Raising to a power</value>
+  </data>
+  <data name="RaisingtoaPowerContent" xml:space="preserve">
+    <value>Raising to a power, or exponentiation, is the process of multiplying a base value b by itself the number of times given by the exponent n in the term b^n.
+<![CDATA[<br><br>]]>
+So, for example, <![CDATA[<math>3^4</math>]]> is the same as <![CDATA[<math>3 x 3 x 3 x 3</math>]]>, which equals <![CDATA[<math>81</math>]]>.
+<![CDATA[<br><br>]]>
+This is spoken as “three to the fourth power” or “three to the fourth.” There are two exceptions to this: The power of two is generally called “squared,” so <![CDATA[<math>3^2</math>]]> is “three squared.” The power of three is referred to as “cubed,” so <![CDATA[<math>3^3</math>]]> is “three cubed.”
+<![CDATA[<br><br>]]>
+Exponents are especially useful when dealing with variables, such as <![CDATA[<math>x^3</math>]]>. There are a few rules in simplifying several variables raised to a power in one expression.
+<![CDATA[<br><br>]]>
+When two terms with the same base are multiplied, the exponents are added:
+<![CDATA[<math>(b^n)(b^m) = b^(n+m)</math>]]>
+<![CDATA[<br><br>]]>
+When raising a power to a power, the exponents are multiplied with each other:
+<![CDATA[<math>(b^n)^m = b^(n*m)</math>]]>
+In other words, if the entire expression <![CDATA[<math>b^n</math>]]> is raised to the power of <![CDATA[<math>^m</math>]]>, the new power of b is the product of n multiplied by m.
+<![CDATA[<br><br>]]>
+Any number to the power of zero equals 1, as long as the base value itself is not 0.
+<![CDATA[<br><br>]]>
+Enter your problem into Tiger’s calculator and the step-by-step solution will help you understand how to raise a number or an expression to a power.
+	</value>
+  </data>
+  <data name="ReducingFractionsToLowestTerms" xml:space="preserve">
+    <value>Reducing fractions to lowest terms</value>
+  </data>
+  <data name="ReducingFractionsToLowestTermsContent" xml:space="preserve">
+    <value>A fraction is in lowest terms when the numerator and denominator have no common factor other than 1.
+For example, if we examine the fraction <![CDATA[<math>25/50</math>]]>, we can reduce this fraction by dividing both the numerator and denominator by their common factor, 25.
+<![CDATA[<math>25/25=1</math>]]> and <![CDATA[<math>50/25=2</math>]]> then <![CDATA[<math>25/50=1/2</math>]]>. which is a fraction in its lowest terms.
+	</value>
+  </data>
+  <data name="SimplifyingRadicals" xml:space="preserve">
+    <value>Simplifying radicals</value>
+  </data>
+  <data name="SimplifyingRadicalsContent" xml:space="preserve">
+    <value>A Square Root Radical is said to be simplified, or in its simplest form, when the radicand has no square factors.
+<![CDATA[<br><br>]]>
+Consider <![CDATA[<math>sqrt(55)</math>]]>, for example, has no square factors. Its factors are 5 and 11 <![CDATA[<math>(5*11=55)</math>]]>, neither of which is a square number. Therefore, it is in its simplest form.
+<![CDATA[<br><br>]]>
+In contrast <![CDATA[<math>sqrt(200)</math>]]>, has the square factor 100. <![CDATA[<math>(200 = 100 * 2)</math>]]>. Therefore, it is not in its simplest form. To get the simplest form <![CDATA[<math>sqrt(200)=sqrt(100)*sqrt(2)=10*sqrt(2)</math>]]></value>
+  </data>
+  <data name="NonLinearEquations" xml:space="preserve">
+    <value>Nonlinear equations</value>
+  </data>
+  <data name="NonLinearEquationsContent" xml:space="preserve">
+    <value>A nonlinear equation is also known as a polynomial equation. An equation that has a degree (or exponent) higher than 1 is considered nonlinear. Such equations are defined by equating polynomials (of a degree greater than one) to zero. They are differentiated from linear equations by evaluating the relationship between variables: when one variable (x) does not cause the other variable (y) to increase or decrease in a way corresponding to the slope’s value, it is nonlinear. When graphed, nonlinear equations may have the form of a parabola, a curved X shape, or some variation of these curved forms. It never, however, takes the form of a line, hence its name.</value>
+  </data>
+  <data name="DeMoivreFormula" xml:space="preserve">
+    <value>De Moivre formula</value>
+  </data>
+  <data name="DeMoivreFormulaContent" xml:space="preserve">
+    <value>De Moivre’s formula, also called de Moivre’s theorem or de Moivre’s identity, is used to determine the nth power of a complex number. It states that if n is any integer and x is a real number, then <![CDATA[<math>(cos(x) + i sin(x))^n = cos(nx) + i sin(nx)</math>]]>, where i is the imaginary unit <![CDATA[<math>(i^2 = −1)</math>]]>. The expression <![CDATA[<math>cos(x) + i sin(x)</math>]]> is sometimes reduced to <![CDATA[<math>cis(x)</math>]]>. De Moivre’s formula is a direct method for solving problems involving powers of complex numbers. In an extended form, it can be used to find the nth roots of a complex number.</value>
+  </data>
+  <data name="ScientificNotation" xml:space="preserve">
+    <value>Scientific Notation</value>
+  </data>
+  <data name="ScientificNotationContent" xml:space="preserve">
+    <value>Scientific notation is also referred to as scientific form or standard index form, or in the UK, standard form.</value>
+  </data>
+  <data name="SolvingQuadraticEquationsByCompletingTheSquare" xml:space="preserve">
+    <value>Solving quadratic equations by completing the square</value>
+  </data>
+  <data name="SolvingQuadraticEquationsByCompletingTheSquareContent" xml:space="preserve">
+    <value>Quadratic equations can be solved by completing the square, which means turning the quadratic equation into a perfect square trinomial and then taking its square root.
+<![CDATA[<br><br>]]>
+What is a perfect square trinomial? A perfect square is the product of a number or expression that is multiplied by itself, such as the perfect square <![CDATA[<math>9</math>]]>, which is the product of <![CDATA[<math>3x3</math>]]>. And a trinomial is an algebraic expression with three terms, such as <![CDATA[<math>2x2+4x–7</math>]]>. So a perfect square trinomial is an algebraic expression with three terms that is the product of a binomial multiplied by itself.
+<![CDATA[<br><br>]]>
+Enter your quadratic equation into Tiger’s calculator and the step-by-step solution will help you understand how to solve quadratic equations by completing the square.
+	</value>
+  </data>
+  <data name="SolvingQuadraticEquationsUsingTheFormula" xml:space="preserve">
+    <value>Solving quadratic equations using the formula</value>
+  </data>
+  <data name="SolvingQuadraticEquationsUsingTheFormulaContent" xml:space="preserve">
+    <value>According to the Quadratic Formula,  k  , the solution for  <![CDATA[<math> Ak^2+Bk+C=0</math>]]>  , where  A, B  and  C  are numbers, often called coefficients, is given by
+	</value>
+  </data>
+  <data name="SolvingQuadraticEquationsUsingTheFormulaContent2" xml:space="preserve">
+    <value>Tiger Algebra Quadratic Equations Solver solves Quadratic Equations using the Formula and in other ways.
+	</value>
+  </data>
+  <data name="OrderOfOperations" xml:space="preserve">
+    <value>Order of operations</value>
+  </data>
+  <data name="OrderOfOperationsContent" xml:space="preserve">
+    <value>Order of Operations is a set of rules that tells us how to approach an equation with multiple functions.</value>
+  </data>
+  <data name="SolvingRadicalEquations" xml:space="preserve">
+    <value>Solving radical equations</value>
+  </data>
+  <data name="SolvingRadicalEquationsContent" xml:space="preserve">
+    <value>Our solver currently handles radical equations in which one variable expression is inside a √(square root) radical .
+	</value>
+  </data>
+  <data name="SquareRootSimplifier" xml:space="preserve">
+    <value>Square root simplifier</value>
+  </data>
+  <data name="SquareRootSimplifierContent" xml:space="preserve">
+    <value>Enter sqrt(integer) to use the Tiger Algebra Step by Step Square Root Simplifier
+	</value>
+  </data>
+  <data name="StatisticalMeasures" xml:space="preserve">
+    <value>Statistical measures</value>
+  </data>
+  <data name="StatisticalMeasuresContent" xml:space="preserve">
+    <value>Enter a set of integers and have Tiger Algebra find the mean, Media, Range, Variance and Standard deviation showing you the step by step calculations.
+	</value>
+  </data>
+  <data name="SummarizingData" xml:space="preserve">
+    <value>Summarizing data</value>
+  </data>
+  <data name="SummarizingDataContent" xml:space="preserve">
+    <value>The following mathematical summaries of data set can convey a information with just a few numbers.  These are called descriptive statistics. 
+	</value>
+  </data>
+  <data name="SummarizingDataContent2" xml:space="preserve">
+    <value>useful types of descriptive statistics
+	</value>
+  </data>
+  <data name="SummarizingDataContent3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SummarizingDataContent4" xml:space="preserve">
+    <value>summaries that indicate the ""spread"" of the raw measurements around the average, called measures of dispersion.
+	</value>
+  </data>
+  <data name="TrigonometryTopic" xml:space="preserve">
+    <value>Trigonometry</value>
+  </data>
+  <data name="TrigonometryContent" xml:space="preserve">
+    <value>In mathematics, the trigonometric functions (also called the circular functions) are functions of an angle. They relate the angles of a triangle to the lengths of its sides. Trigonometric functions are important in the study of triangles and modeling periodic phenomena, among many other applications.
+<![CDATA[<br><br>]]>
+Tiger Algebra does not yet solve equations involving trigonometric functions, join our mailing list to be notified when it does.
+	</value>
+  </data>
+  <data name="Simplify" xml:space="preserve">
+    <value>Simplify</value>
+  </data>
+  <data name="BasicComplexArithmetic" xml:space="preserve">
+    <value>Basic complex arithmetic</value>
+  </data>
+  <data name="CommentsBlockTitle" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="SolveRoute" xml:space="preserve">
+    <value>solution</value>
+  </data>
+  <data name="TermsAndTopicsRoute" xml:space="preserve">
+    <value>terms-and-topics</value>
+  </data>
+  <!-- ROUTES TERMS AND TOPICS-->
+    <data name="topicurl-pi" xml:space="preserve">
+        <value>pi</value>
+    </data>
+    <data name="topicurl-solving-quadratic-equations-using-the-formula" xml:space="preserve">
+        <value>solving-quadratic-equations-using-the-formula</value>
+    </data>
+    <data name="topicurl-solving-quadratic-equations-by-completing-the-square" xml:space="preserve">
+        <value>solving-quadratic-equations-by-completing-the-square</value>
+    </data>
+    <data name="topicurl-solving-radical-equations" xml:space="preserve">
+        <value>solving-radical-equations</value>
+    </data>
+    <data name="topicurl-factoring-trinomials" xml:space="preserve">
+        <value>factoring-trinomials</value>
+    </data>
+    <data name="topicurl-factoring-multi-variable-polynomials" xml:space="preserve">
+        <value>factoring-multi-variable-polynomials</value>
+    </data>
+    <data name="topicurl-absolute-value-equations" xml:space="preserve">
+        <value>absolute-value-equations</value>
+    </data>
+    <data name="topicurl-approximation" xml:space="preserve">
+        <value>approximation</value>
+    </data>
+    <data name="topicurl-absolute-value-inequalities" xml:space="preserve">
+        <value>absolute-value-inequalities</value>
+    </data>
+    <data name="topicurl-identifying-perfect-cubes" xml:space="preserve">
+        <value>identifying-perfect-cubes</value>
+    </data>
+    <data name="topicurl-summarizing-data" xml:space="preserve">
+        <value>summarizing-data</value>
+    </data>
+    <data name="topicurl-percentage" xml:space="preserve">
+        <value>percentage</value>
+    </data>
+    <data name="topicurl-circle" xml:space="preserve">
+        <value>circle</value>
+    </data>
+    <data name="topicurl-combination" xml:space="preserve">
+        <value>combination</value>
+    </data>
+    <data name="topicurl-statistical-measures" xml:space="preserve">
+        <value>statistical-measures</value>
+    </data>
+    <data name="topicurl-ordered-pairs" xml:space="preserve">
+        <value>ordered-pairs</value>
+    </data>
+    <data name="topicurl-pulling-out-like-terms" xml:space="preserve">
+        <value>pulling-out-like-terms</value>
+    </data>
+    <data name="topicurl-factoring-polynomials-having-more-than-3-terms" xml:space="preserve">
+        <value>factoring-polynomials-having-more-than-3-terms</value>
+    </data>
+    <data name="topicurl-factorial" xml:space="preserve">
+        <value>factorial</value>
+    </data>
+    <data name="topicurl-canceling-out" xml:space="preserve">
+        <value>canceling-out</value>
+    </data>
+    <data name="topicurl-polynomial-root-calculator" xml:space="preserve">
+        <value>polynomial-root-calculator</value>
+    </data>
+    <data name="topicurl-parabola-finding-vertex-and-x-intercepts" xml:space="preserve">
+        <value>parabola-finding-vertex-and-x-intercepts</value>
+    </data>
+    <data name="topicurl-reducing-fractions-to-lowest-terms" xml:space="preserve">
+        <value>reducing-fractions-to-lowest-terms</value>
+    </data>
+    <data name="topicurl-simplifying-radicals" xml:space="preserve">
+        <value>simplifying-radicals</value>
+    </data>
+    <data name="topicurl-arithmetic-sequence" xml:space="preserve">
+        <value>arithmetic-sequence</value>
+    </data>
+    <data name="topicurl-distance-between-two-points-and-their-midpoint" xml:space="preserve">
+        <value>distance-between-two-points-and-their-midpoint</value>
+    </data>
+    <data name="topicurl-properties-of-a-straight-line" xml:space="preserve">
+        <value>properties-of-a-straight-line</value>
+    </data>
+    <data name="topicurl-powers-of-i" xml:space="preserve">
+        <value>powers-of-i</value>
+    </data>
+    <data name="topicurl-trigonometry" xml:space="preserve">
+        <value>trigonometry</value>
+    </data>
+    <data name="topicurl-geometric-series" xml:space="preserve">
+        <value>geometric-series</value>
+    </data>
+    <data name="topicurl-gcf-calculator" xml:space="preserve">
+        <value>gcf-calculator</value>
+    </data>
+    <data name="topicurl-lcm-calculator" xml:space="preserve">
+        <value>lcm-calculator</value>
+    </data>
+    <data name="topicurl-find-area-of-triangle-given-by-its-3-sides" xml:space="preserve">
+        <value>find-area-of-triangle-given-by-its-3-sides</value>
+    </data>
+    <data name="topicurl-find-prime-factors" xml:space="preserve">
+        <value>find-prime-factors</value>
+    </data>
+    <data name="topicurl-equations-which-are-reducible-to-quadratic" xml:space="preserve">
+        <value>equations-which-are-reducible-to-quadratic</value>
+    </data>
+    <data name="topicurl-square-root-simplifier" xml:space="preserve">
+        <value>square-root-simplifier</value>
+    </data>
+    <data name="topicurl-basic-complex-operations" xml:space="preserve">
+        <value>basic-complex-operations</value>
+    </data>
+    <data name="topicurl-adding-subtracting-finding-least-common-multiple" xml:space="preserve">
+        <value>adding-subtracting-finding-least-common-multiple</value>
+    </data>
+    <data name="topicurl-multiplying-fractions" xml:space="preserve">
+        <value>multiplying-fractions</value>
+    </data>
+    <data name="topicurl-dividing-fractions" xml:space="preserve">
+        <value>dividing-fractions</value>
+    </data>
+    <data name="topicurl-raising-to-a-power" xml:space="preserve">
+        <value>raising-to-a-power</value>
+    </data>
+    <data name="topicurl-dividing-exponents" xml:space="preserve">
+        <value>dividing-exponents</value>
+    </data>
+    <data name="topicurl-multiplying-exponents" xml:space="preserve">
+        <value>multiplying-exponents</value>
+    </data>
+    <data name="topicurl-linear-equations-with-one-unknown" xml:space="preserve">
+        <value>linear-equations-with-one-unknown</value>
+    </data>
+    <data name="topicurl-linear-equations-with-two-unknowns" xml:space="preserve">
+        <value>linear-equations-with-two-unknowns</value>
+    </data>
+    <data name="topicurl-linear-equations-with-three-unknowns" xml:space="preserve">
+        <value>linear-equations-with-three-unknowns</value>
+    </data>
+    <data name="topicurl-linear-equations-with-four-unknowns" xml:space="preserve">
+        <value>linear-equations-with-four-unknowns</value>
+    </data>
+    <data name="topicurl-non-linear-equations" xml:space="preserve">
+        <value>non-linear-equations</value>
+    </data>
+    <data name="topicurl-de-moivre-formula" xml:space="preserve">
+        <value>de-moivre-formula</value>
+    </data>
+    <data name="topicurl-solving-linear-equations-by-substitution" xml:space="preserve">
+        <value>solving-linear-equations-by-substitution</value>
+    </data>
+    <data name="topicurl-linear-inequalities" xml:space="preserve">
+        <value>linear-inequalities</value>
+    </data>
+    <data name="topicurl-factoring-binomials-as-difference-of-squares" xml:space="preserve">
+        <value>factoring-binomials-as-difference-of-squares</value>
+    </data>
+    <data name="topicurl-factoring-binomials-as-sum-or-difference-of-cubes" xml:space="preserve">
+        <value>factoring-binomials-as-sum-or-difference-of-cubes</value>
+    </data>
+    <data name="topicurl-other-factorizations" xml:space="preserve">
+        <value>other-factorizations</value>
+    </data>
+    <data name="topicurl-polynomial-long-division" xml:space="preserve">
+        <value>polynomial-long-division</value>
+    </data>
+    <data name="topicurl-scientific-notation" xml:space="preserve">
+        <value>scientific-notation</value>
+    </data>
+    <data name="topicurl-order-of-operations" xml:space="preserve">
+        <value>order-of-operations</value>
+    </data>
+    
+    <!-- END OF ROUTES TERMS AND TOPICS-->
+    
+    <data name="LatestTopics" xml:space="preserve">
+        <value>Topics</value>
+    </data>
+    <data name="LearnMoreWithTiger" xml:space="preserve">
+        <value>Learn more with Tiger</value>
+    </data>
+    <data name="Contact" xml:space="preserve">
+        <value>Contact</value>
+    </data>
+    <data name="NumberSolved" xml:space="preserve">
+        <value>Solved</value>
+    </data>
+	<data name="NumberOnline" xml:space="preserve">
+        <value>Online</value>
+    </data>
+    <data name="Number" xml:space="preserve">
+        <value>Number</value>
+    </data>
+    <!-- Topics Home Section -->
+    <data name="BasicTechniques" xml:space="preserve">
+        <value>Basic Techniques</value>
+    </data>
+    <data name="QuadraticEquations" xml:space="preserve">
+        <value>Quadratic Equations</value>
+    </data>
+    <data name="Fractions" xml:space="preserve">
+        <value>Fractions</value>
+    </data>
+    <data name="Exponents" xml:space="preserve">
+        <value>Exponents</value>
+    </data>
+    <data name="SetsOfLinearEquations" xml:space="preserve">
+        <value>Sets of Linear Equations</value>
+    </data>
+    <data name="NonLinearEquationsAndApproximationAndInequalities" xml:space="preserve">
+        <value>Nonlinear Equations and Approximation and Inequalities</value>
+    </data>
+    <data name="Factorization" xml:space="preserve">
+        <value>Factorization</value>
+    </data>
+    <data name="AbsoluteValue" xml:space="preserve">
+        <value>Absolute Value</value>
+    </data>
+    <data name="SeriesAndProgressions" xml:space="preserve">
+        <value>Series and Progressions</value>
+    </data>
+    <data name="Geometry" xml:space="preserve">
+        <value>Geometry</value>
+    </data>
+    <data name="Calculators" xml:space="preserve">
+        <value>Calculators</value>
+    </data>
+    <data name="Statistics" xml:space="preserve">
+        <value>Statistics</value>
+    </data>
+    <!-- End Of Topics Home Section -->
+       
+    <!-- Extra Variations to Translate -->
+    <!-- LeastCommonMultipleSolverStep1TextUnit1:-->
+    <data name="VAR1_LeastCommonMultipleSolverStep1TextUnit1" xml:space="preserve">
+        <value>The prime factors of 50 are 3, 2 and 5.</value>
+    </data>
+    <data name="VAR2_LeastCommonMultipleSolverStep1TextUnit1" xml:space="preserve">
+        <value>The prime factor of 5 is 5.</value>
+    </data>
+    
+    <!-- SolverTechniquesEquationTransitionTreeImgAlt-->
+    <data name="VAR1_SolverTechniquesEquationTransitionTreeImgAlt" xml:space="preserve">
+        <value>Tree view of the prime factors of 10, 15 and 20</value>
+    </data>
+    <data name="VAR2_SolverTechniquesEquationTransitionTreeImgAlt" xml:space="preserve">
+        <value>Tree view of the prime factors of 10.</value>
+    </data> 
+
+    <!-- LeastCommonMultipleSolverStep2TableTextUnit1-->
+    <data name="VAR1_LeastCommonMultipleSolverStep2TableTextUnit1" xml:space="preserve">
+        <value>The prime factors 5, 7 and 13 occur one time.</value>
+    </data>
+    <data name="VAR2_LeastCommonMultipleSolverStep2TableTextUnit1" xml:space="preserve">
+        <value>The prime factor 5 occurs one time.</value>
+    </data>
+
+    <!-- LeastCommonMultipleSolverStep2TableTextUnit2-->
+    <data name="VAR1_LeastCommonMultipleSolverStep2TableTextUnit2" xml:space="preserve">
+        <value>The prime factor 5 occurs more than once.</value>
+    </data>
+    <data name="VAR2_LeastCommonMultipleSolverStep2TableTextUnit2" xml:space="preserve">
+        <value>The prime factors 5, 7 and 11 occur more than once.</value>
+    </data>
+
+    <!-- LeastCommonMultipleSolverStep2TableTextUnit3-->
+    <data name="VAR1_LeastCommonMultipleSolverStep2TableTextUnit3" xml:space="preserve">
+        <value>The prime factor 3 occurs one time, while 11, 13 and 17 occur more than once.</value>
+    </data>
+    <data name="VAR2_LeastCommonMultipleSolverStep2TableTextUnit3" xml:space="preserve">
+        <value>The prime factors 3, 5 and 7 occur one time, while 11, 13 and 17 occur more than once.</value>
+    </data>
+
+    <!-- LeastCommonMultipleSolverStepFinalTextUnit3-->
+    <data name="VAR1_LeastCommonMultipleSolverStepFinalTextUnit3" xml:space="preserve">
+        <value>The least common multiple of 3, 7 and 11 is 11111.</value>
+    </data>
+    <!-- END OF Extra Variations to Translate -->
+    
+    <!-- ROUTES SOlVERS-->   
+    <data name="url-absolute-value-equations" xml:space="preserve">
+          <value>absolute-value-equations</value>
+    </data>
+    <data name="url-absolute-value-inequalities" xml:space="preserve">
+          <value>absolute-value-inequalities</value>
+    </data>
+    <data name="url-adding-subtracting-finding-least-common-multiple" xml:space="preserve">
+          <value>adding-subtracting-finding-least-common-multiple</value>
+    </data>
+    <data name="url-approximation" xml:space="preserve">
+          <value>approximation</value>
+    </data>
+    <data name="url-arithmetic-sequence" xml:space="preserve">
+          <value>arithmetic-sequence</value>
+    </data>
+    <data name="url-basiccomplexoperations" xml:space="preserve">
+          <value>basiccomplexoperations</value>
+    </data>
+    <data name="url-circle-content" xml:space="preserve">
+          <value>circle-content</value>
+    </data>
+    <data name="url-combinations" xml:space="preserve">
+          <value>combinations</value>
+    </data>
+    <data name="url-de-moivre-formula-equations" xml:space="preserve">
+          <value>de-moivre-formula-equations</value>
+    </data>
+    <data name="url-distance-between-two-points-and-their-midpoint" xml:space="preserve">
+          <value>distance-between-two-points-and-their-midpoint</value>
+    </data>
+    <data name="url-equations-which-are-reducible-to-quadratic" xml:space="preserve">
+          <value>equations-which-are-reducible-to-quadratic</value>
+    </data>
+    <data name="url-factorial" xml:space="preserve">
+          <value>factorial</value>
+    </data>
+    <data name="url-factoring-binomials-as-difference-of-squares" xml:space="preserve">
+          <value>factoring-binomials-as-difference-of-squares</value>
+    </data>
+    <data name="url-factoring-binomials-as-sum-or-difference-of-cubes" xml:space="preserve">
+          <value>factoring-binomials-as-sum-or-difference-of-cubes</value>
+    </data>
+    <data name="url-factoring-multivariable-polynomials" xml:space="preserve">
+          <value>factoring-multivariable-polynomials</value>
+    </data>
+    <data name="url-find-area-of-triangle-given-by-its-3-sides" xml:space="preserve">
+          <value>find-area-of-triangle-given-by-its-3-sides</value>
+    </data>
+    <data name="url-find-prime-factors" xml:space="preserve">
+          <value>find-prime-factors</value>
+    </data>
+    <data name="url-geometric-series" xml:space="preserve">
+          <value>geometric-series</value>
+    </data>
+    <data name="url-greatest-common-factor" xml:space="preserve">
+          <value>greatest-common-factor</value>
+    </data>
+    <data name="url-identifying-perfect-cubes" xml:space="preserve">
+          <value>identifying-perfect-cubes</value>
+    </data>
+    <data name="url-lcm-calculator" xml:space="preserve">
+          <value>lcm-calculator</value>
+    </data>
+    <data name="url-linear-equations-with-one-unknown" xml:space="preserve">
+          <value>linear-equations-with-one-unknown</value>
+    </data>
+    <data name="url-linear-equations-with-two-unknowns" xml:space="preserve">
+          <value>linear-equations-with-two-unknowns</value>
+    </data>
+    <data name="url-linear-equations-with-three-unknowns" xml:space="preserve">
+          <value>linear-equations-with-three-unknowns</value>
+    </data>
+    <data name="url-linear-equations-with-four-unknowns" xml:space="preserve">
+          <value>linear-equations-with-four-unknowns</value>
+    </data>
+    <data name="url-linear-equations" xml:space="preserve">
+          <value>linear-equations</value>
+    </data>
+    <data name="url-linear-inequalities" xml:space="preserve">
+          <value>linear-inequalities</value>
+    </data>
+    <data name="url-nonlinear-equations" xml:space="preserve">
+          <value>nonlinear-equations</value>
+    </data>
+    <data name="url-other-factorizations" xml:space="preserve">
+          <value>other-factorizations</value>
+    </data>
+    <data name="url-percentage" xml:space="preserve">
+          <value>percentage</value>
+    </data>
+    <data name="url-polynomial-long-division" xml:space="preserve">
+          <value>polynomial-long-division</value>
+    </data>
+    <data name="url-polynomial-root-calculator" xml:space="preserve">
+          <value>polynomial-root-calculator</value>
+    </data>
+    <data name="url-power-equation" xml:space="preserve">
+          <value>power-equation</value>
+    </data>
+    <data name="url-power-of-i" xml:space="preserve">
+          <value>power-of-i</value>
+    </data>
+    <data name="url-properties-straight-line" xml:space="preserve">
+          <value>properties-straight-line</value>
+    </data>
+    <data name="url-quadratic-equations" xml:space="preserve">
+          <value>quadratic-equations</value>
+    </data>
+    <data name="url-radical-equations" xml:space="preserve">
+          <value>radical-equations</value>
+    </data>
+    <data name="url-raising-to-a-power" xml:space="preserve">
+          <value>raising-to-a-power</value>
+    </data>
+    <data name="url-reducing-fractions-to-lowest-terms" xml:space="preserve">
+          <value>reducing-fractions-to-lowest-terms</value>
+    </data>
+    <data name="url-simplifying-radicals" xml:space="preserve">
+          <value>simplifying-radicals</value>
+    </data>
+    <data name="url-square-root-simplifier" xml:space="preserve">
+          <value>square-root-simplifier</value>
+    </data>
+    <data name="url-statistical-measures" xml:space="preserve">
+          <value>statistical-measures</value>
+    </data>
+    <data name="url-simplification-or-other-simple-results" xml:space="preserve">
+          <value>simplification-or-other-simple-results</value>
+    </data>
+    <data name="url-absolute-value-problem" xml:space="preserve">
+          <value>absolute-expression-simplifier</value>
+    </data>
+    <data name="url-least-common-multiple-solver" xml:space="preserve">
+          <value>least-common-multiple</value>
+    </data>
+	<data name="url-scientific-notation-solver" xml:space="preserve">
+          <value>scientific-notation-conversion</value>
+    </data>
+    <data name="url-no-solver-found" xml:space="preserve">
+          <value>no-solution-found</value>
+    </data>
+	<data name="url-order-of-operations-numeric-calculator" xml:space="preserve">
+		<value>order-of-operations</value>
+	</data>
+  <data name="url-quadratic-equations-via-formula-solver" xml:space="preserve">
+        <value>quadratic-equations-via-formula</value>
+    </data>
+  <data name="url-distance-between-two-points-calculator" xml:space="preserve">
+        <value>distance-between-two-points-calculator</value>
+    </data>
+  <data name="url-midpoint-calculator" xml:space="preserve">
+        <value>midpoint</value>
+    </data>
+  <!-- END OF ROUTES SOlVERS -->
+    <data name="URL-vb-Adding-And-Subtracting-Logs" xml:space="preserve">
+        <value>adding-and-subtracting-logs</value>
+    </data>
+    <data name="URL-vb-domain-range-and-function-from-ordered-pair" xml:space="preserve">
+        <value>domain-range-and-function-from-ordered-pair</value>
+    </data>
+    <data name="URL-vb-integer-to-power-variable-equals-number" xml:space="preserve">
+        <value>integer-to-power-variable-equals-number</value>
+    </data>
+    <data name="URL-vb-logarithmic-form-to-exponential-form" xml:space="preserve">
+        <value>logarithmic-form-to-exponential-form</value>
+    </data>
+     <!-- END OF ROUTES SOlVERS -->
+>>>>>>> master
+    
+    <!-- DO NOT TRANSLATE -->
+    <!-- LEGACY MESSAGES, LANGUAGE SPECIFIC, NO CULTURE SUPPORTED IN LEGACY SO SET IN EN FILE -->
+    <data name="SolverNotAvailableInDE" xml:space="preserve">
+        <value>Diese Lösung wird in Kürze auf Deutsch verfügbar sein.</value>
+    </data>
+    <data name="SolverNotAvailableInES" xml:space="preserve">
+        <value>Aún no disponible en español.</value>
+    </data>
+    <data name="SolverNotAvailableInVI" xml:space="preserve">
+        <value>Sẽ sớm có lời giải bằng tiếng Đức.</value>
+    </data>
+    <!-- END OF DO NOT TRANSLATE -->
+    
+    <!-- Domestic Violence Help -->
+     <data name="DomesticViolenceHelp" xml:space="preserve">
+          <value>Domestic Violence Help</value>
+    </data> 
+    <data name="NationalDomesticViolenceHotline" xml:space="preserve">
+          <value>National Domestic Violence Hotline</value>
+    </data>
+    <!--End Of Domestic Violence Help -->
+    
+    <data name="AddToHome" xml:space="preserve">
+          <value>Add to Home</value>
+    </data>
+    
+    <!-- NT Transitions -->
+    <!-- SolverTechniques:solveSQRTViaPrimeFactors -->
+    <data name="NTTextSimplifySquareRootStep1" xml:space="preserve">
+        <value>Write the prime factors.</value>
+    </data>
+    <data name="NTTextSimplifySquareRootStep1Zero" xml:space="preserve">
+        <value>Zero has one square root which is 0.</value>
+    </data>
+    <data name="NTTextSimplifySquareRootStep2" xml:space="preserve">
+        <value>Group the prime factors into pairs and rewrite in exponent form.</value>
+    </data>
+    <data name="NTTextSimplifySquareRootStep3" xml:space="preserve">
+        <value>Use rule <![CDATA[<math>sqrt(x^2)=x</math>]]> to simplify further.</value>
+    </data>
+  <data name="NTTextSolveExponentsAndSqrt" xml:space="preserve">
+    <value>Simplify exponents and square roots.</value>
+  </data>
+    <data name="NTTextSolveABS" xml:space="preserve">
+        <value>Take the absolute values.</value>
+    </data>
+  <data name="NTTextCombineLikeTerms" xml:space="preserve">
+    <value>Perform any multiplication or division, from left to right.</value>
+  </data>
+  <data name="NTTextFollowedByAddSub" xml:space="preserve">
+    <value>Perform any addition or subtraction, from left to right.</value>
+  </data>
+    <data name="NTTextNoParentheses" xml:space="preserve">
+        <value>The expression contains no (parentheses), which would have been handled first.</value>
+    </data>
+    <data name="NTTextHasParentheses" xml:space="preserve">
+        <value>We begin by calculating the expression inside the parentheses.</value>
+    </data>
+  <data name="NTTextCalculateParentheses" xml:space="preserve">
+    <value>Calculate the expression inside the parentheses.</value>
+  </data>
+    <data name="NTTextCalculateParentheses2" xml:space="preserve">
+        <value>We first calculate the expressions inside the parentheses from left to right and from inner to outer.</value>
+    </data>
+  <data name="NTTextCalculateParentheses3" xml:space="preserve">
+    <value>We first calculate the expressions inside the parentheses, and the absolute value bars.</value>
+  </data>
+  <data name="NTTextOOODefinition" xml:space="preserve">
+        <value>The Order of Operations is a set of rules that tell us how to approach a problem with multiple functions. Solve within the parentheses first. Then calculate exponents, then division and multiplication from left to right and finally add and subtract from left to right.</value>
+    </data>
+     <!-- END OF NT Transitions -->
+  <data name="MetaVideoTitleABS" xml:space="preserve">
+    <value>Absolute Value Expressions: Solve {0} step-by-step solution</value>
+  </data>
+  <data name="MetaVideoDescriptionABS" xml:space="preserve">
+    <value>Solving {0} using the absolute value solver by www.tiger-algebra.com
+
+Check out https://www.tiger-algebra.com{1} for a step-by-step and more tips and tricks for dealing with absolute value expressions.</value><comment>a comments</comment>
+  </data>
+  <data name="MetaVideoTagsABS" xml:space="preserve">
+    <value>math, algebra, tiger-algebra, e-learning, absolute value expressions</value>
+  </data>
+  <data name="NTTextAdditionSubtraction" xml:space="preserve">
+    <value>Calculate any addition or subtraction, from left to right.</value>
+  </data>
+</root>
+
