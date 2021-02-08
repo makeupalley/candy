@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="WeThinkYouWrote" xml:space="preserve">
-    <value>We think you did write a nice something:</value>
+    <value>We think you did write a nice something: &lt;math&gt;23&lt;/math&gt;</value>
   </data>
   <data name="YouEntered" xml:space="preserve">
     <value>This deals with {0}.</value>
