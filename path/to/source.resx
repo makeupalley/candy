@@ -539,7 +539,7 @@
   </data>
   <data name="MetaWhyLearnThisDistanceBetweenTwoPoints" xml:space="preserve">
     <value>
-      Learn how to find the distance between two points by using the distance formula, which is an application of the Pythagorean theorem. We can rewrite the Pythagorean theorem as &lt;math&gt;d=sqrt((x_2-x_1)^2+(y_2-y_1)^2)&lt;/math&gt; to find the distance between any two points.
+      Learn how testcdata to find the distance between two points by using the distance formula, which is an application of the Pythagorean theorem. We can rewrite the Pythagorean theorem as &lt;math&gt;d=sqrt((x_2-x_1)^2+(y_2-y_1)^2)&lt;/math&gt; to find the distance between any two points.
     </value>
   </data>
   <data name="MetaWhyLearnThisMidpointCalculator" xml:space="preserve">
